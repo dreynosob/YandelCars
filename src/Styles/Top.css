@@ -1,0 +1,27 @@
+.containerBarraInfo {
+  color: white;
+  padding: 7px 0px;
+  background-color: #1b1a1ae7;
+  font-size: 14px;
+}
+.containerBarraInfo .apartadoTexto {
+  margin-left: 35px;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+.containerBarraInfo .social {
+  text-align: right;
+  font-size: 14px;
+  float: right;
+  margin-right: 35px;
+}
+
+.containerBarraInfo .social a {
+  margin-right: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+  .containerBarraInfo {
+    display: none;
+  }
+}
