@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/YandelCars/static/css/main.31af2adb.css",
+    "main.js": "/YandelCars/static/js/main.bc8e88ad.js",
+    "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
+    "static/media/pequeno.png": "/YandelCars/static/media/pequeno.ad9ed50238b54c0942c9.png",
+    "index.html": "/YandelCars/index.html",
+    "main.31af2adb.css.map": "/YandelCars/static/css/main.31af2adb.css.map",
+    "main.bc8e88ad.js.map": "/YandelCars/static/js/main.bc8e88ad.js.map",
+    "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31af2adb.css",
+    "static/js/main.bc8e88ad.js"
+  ]
+}
