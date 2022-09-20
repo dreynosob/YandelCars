@@ -5,9 +5,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import logo from "../imgs/logo.jpg";
 
 //CSS
 import "../Styles/Menu.css";
+import Buscador from "./Buscador";
 
 function Menu() {
   return (
@@ -15,9 +17,10 @@ function Menu() {
       {["sm"].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3 menu">
           <Container fluid>
-            <Navbar.Brand href="#" className="texto">
+            <Navbar.Brand href="#" className="texto logoName">
               YandelCars
             </Navbar.Brand>
+
             <Navbar.Toggle
               className="borderToggle"
               aria-controls={`offcanvasNavbar-expand-${expand}`}
@@ -29,7 +32,7 @@ function Menu() {
             >
               <Offcanvas.Header className="colorFondo" closeButton>
                 <Offcanvas.Title
-                  className="texto"
+                  className="texto logoNameResponsive"
                   id={`offcanvasNavbarLabel-expand-${expand}`}
                 >
                   YandelCars
@@ -37,11 +40,18 @@ function Menu() {
               </Offcanvas.Header>
               <Offcanvas.Body className="colorFondo">
                 <Nav className="justify-content-end flex-grow-1 pe-3 texto">
+                  <Buscador />
                   <Nav.Link href="#action1" className="texto">
                     YandelCars
                   </Nav.Link>
                   <Nav.Link href="#action2" className="texto">
                     Coches
+                  </Nav.Link>
+                  <Nav.Link href="#action2" className="texto">
+                    Garantía
+                  </Nav.Link>
+                  <Nav.Link href="#action2" className="texto">
+                    Conocenos
                   </Nav.Link>
                   <NavDropdown
                     title="Servicios"

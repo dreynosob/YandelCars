@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&display=swap");
+.contenedorImgPortada1 {
+  background-image: url("../imgs//fondoPortada1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.contenedorPortada1 {
+  margin-left: 10px;
+}
+
+.contenidoPortada1Titulo {
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+}
+img {
+  float: right;
+  width: 800px;
+  height: 338px;
+  margin-left: 15px;
+}
+h3 {
+  font-weight: 300;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+  img {
+    width: 350px;
+    height: 200px;
+  }
+}

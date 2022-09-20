@@ -1,5 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Filtro from "./components/Filtro";
+import Buscador from "./components/Buscador";
+import ContenidoPortada1 from "./components/ContenidoPortada1";
+
 import Menu from "./components/Menu";
 import Top from "./components/Top";
 
@@ -8,7 +10,7 @@ function App() {
     <div>
       <Top />
       <Menu />
-      <Filtro />
+      <ContenidoPortada1 />
     </div>
   );
 }

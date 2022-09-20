@@ -11,7 +11,7 @@ const Top = () => {
         <span className="apartadoTexto">Telf. 982245578</span>
         <span>Email: YandelCars@gmail.com</span>
         <span className="social">
-          <a href="">
+          <a href="" className="iconosHover">
             <BsFacebook color="white" />
           </a>
           <a href="">
