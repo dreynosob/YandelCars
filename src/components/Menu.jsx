@@ -18,7 +18,7 @@ function Menu() {
         <Navbar key={expand} expand={expand} className="mb-3 menu">
           <Container fluid>
             <Navbar.Brand href="#" className="texto logoName">
-              YandelCars
+              YandelAutos
             </Navbar.Brand>
 
             <Navbar.Toggle
@@ -35,14 +35,14 @@ function Menu() {
                   className="texto logoNameResponsive"
                   id={`offcanvasNavbarLabel-expand-${expand}`}
                 >
-                  YandelCars
+                  YandelAutos
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="colorFondo">
                 <Nav className="justify-content-end flex-grow-1 pe-3 texto">
                   <Buscador />
                   <Nav.Link href="#action1" className="texto">
-                    YandelCars
+                    YandelAutos
                   </Nav.Link>
                   <Nav.Link href="#action2" className="texto">
                     Coches

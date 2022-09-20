@@ -5,7 +5,7 @@ const ContenidoPortada1 = () => {
   return (
     <div className="contenedorPortada1">
       <h3>
-        Somos <span className="contenidoPortada1Titulo">YandelCars.es</span>
+        Somos <span className="contenidoPortada1Titulo">YandelAutos.es</span>
       </h3>
       <p>
         <img src={portada1} className="contenedorImgPortada1" />
