@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import portada1 from "../imgs/portada1.png";
 import "../Styles/ContenidoPortada1.css";
 const ContenidoPortada1 = () => {

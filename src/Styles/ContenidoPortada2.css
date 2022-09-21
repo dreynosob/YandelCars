@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&display=swap");
+.flotarIzquierda {
+  float: left;
+  margin: 0;
+  width: 700px;
+  height: 348px;
+}
+.flotarDerecha {
+  float: right;
+  margin-top: 60px;
+  line-height: 1.5;
+}
+.flotarDerecha h3 {
+  font-weight: bold;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+}
+.flotarDerecha p {
+  text-align: justify;
+  margin-right: 16px;
+}
+.colorFondos {
+  margin-top: 50px;
+}
+.brandNameP {
+  font-family: "Lobster", cursive;
+  text-decoration: none;
+  color: #212529;
+}
+@media only screen and (max-width: 767px) {
+  .flotarIzquierda {
+    width: 350px;
+    height: 200px;
+  }
+  .flotarDerecha {
+    margin-left: 10px;
+  }
+}
