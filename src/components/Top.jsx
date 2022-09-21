@@ -4,12 +4,19 @@ import "../Styles/Top.css";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
+import { FaMapMarkerAlt, FaMailBulk, FaPhoneAlt } from "react-icons/fa";
 const Top = () => {
   return (
     <>
       <div className="containerBarraInfo">
-        <span className="apartadoTexto">Telf. 982245578</span>
-        <span>Email: YandelAutos@gmail.com</span>
+        <span className="apartadoTexto">
+          <FaPhoneAlt color="white" />
+          Telf. 982245578
+        </span>
+        <span>
+          <FaMailBulk color="white" />
+          Email: YandelAutos@gmail.com
+        </span>
         <span className="social">
           <a href="" className="iconosHover">
             <BsFacebook color="white" />
