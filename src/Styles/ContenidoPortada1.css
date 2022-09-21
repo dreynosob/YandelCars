@@ -36,4 +36,7 @@ p {
     width: 350px;
     height: 200px;
   }
+  p {
+    margin-right: 10px;
+  }
 }

@@ -9,7 +9,7 @@ const Top = () => {
     <>
       <div className="containerBarraInfo">
         <span className="apartadoTexto">Telf. 982245578</span>
-        <span>Email: YandelCars@gmail.com</span>
+        <span>Email: YandelAutos@gmail.com</span>
         <span className="social">
           <a href="" className="iconosHover">
             <BsFacebook color="white" />
