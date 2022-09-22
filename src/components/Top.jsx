@@ -4,7 +4,7 @@ import "../Styles/Top.css";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
-import { FaMapMarkerAlt, FaMailBulk, FaPhoneAlt } from "react-icons/fa";
+import { FaMailBulk, FaPhoneAlt } from "react-icons/fa";
 const Top = () => {
   return (
     <>

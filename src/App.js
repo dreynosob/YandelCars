@@ -5,6 +5,7 @@ import ContenidoPortada2 from "./components/ContenidoPortada2";
 import Footer from "./components/Footer";
 
 import Menu from "./components/Menu";
+import PortadaListaCoches from "./components/PortadaListCoches";
 
 import Top from "./components/Top";
 
@@ -15,6 +16,7 @@ function App() {
       <Menu />
       <ContenidoPortada1 />
       <ContenidoPortada2 />
+      <PortadaListaCoches />
       <Footer />
     </div>
   );

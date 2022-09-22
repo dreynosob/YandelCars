@@ -23,6 +23,7 @@ const ContenidoPortada2 = () => {
             Contáctanos
           </Button>
         </div>
+        <hr />
       </div>
     </>
   );

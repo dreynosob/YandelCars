@@ -1,0 +1,58 @@
+.contenedorCochesPortada {
+  width: 90vw;
+  max-width: 1170px;
+  margin-left: 3px;
+  margin-bottom: -500px;
+  display: grid;
+  gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorCochesPortada img {
+  width: 250px;
+  height: 100px;
+  margin-top: 150px;
+}
+.contenedorCochesPortada .imgPortadaLista {
+  width: 250px;
+  height: 150px;
+}
+.cars {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  width: 270px;
+  display: grid;
+}
+
+.contenedorCochesPortada img:hover {
+  transform: translateY(-6px);
+  transition: all 0.3s ease-in-out 0s;
+}
+.hoverBoton {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.cars:hover {
+  transform: translateY(-6px);
+  transition: all 0.3s ease-in-out 0s;
+}
+.cars .bordeCards {
+  border: 3px solid;
+}
+.tituloPortadaLista {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .contenedorCochesPortada {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    align-items: center;
+  }
+}
