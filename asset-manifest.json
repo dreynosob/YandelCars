@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YandelCars/static/css/main.e45d17dc.css",
-    "main.js": "/YandelCars/static/js/main.66a73464.js",
+    "main.js": "/YandelCars/static/js/main.72a1c21a.js",
     "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
     "static/media/portada1.png": "/YandelCars/static/media/portada1.b8ba54feb995fc72ae21.png",
     "static/media/logo.jpg": "/YandelCars/static/media/logo.651e2aa323be19aaca0f.jpg",
@@ -12,11 +12,11 @@
     "static/media/sedan1.jpg": "/YandelCars/static/media/sedan1.6c242ecbfd13feb3d8f1.jpg",
     "index.html": "/YandelCars/index.html",
     "main.e45d17dc.css.map": "/YandelCars/static/css/main.e45d17dc.css.map",
-    "main.66a73464.js.map": "/YandelCars/static/js/main.66a73464.js.map",
+    "main.72a1c21a.js.map": "/YandelCars/static/js/main.72a1c21a.js.map",
     "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e45d17dc.css",
-    "static/js/main.66a73464.js"
+    "static/js/main.72a1c21a.js"
   ]
 }
