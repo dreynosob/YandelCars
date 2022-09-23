@@ -8,10 +8,11 @@ import Menu from "./components/Menu";
 import PortadaListaCoches from "./components/PortadaListCoches";
 
 import Top from "./components/Top";
+import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Top />
       <Menu />
       <ContenidoPortada1 />

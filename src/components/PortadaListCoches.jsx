@@ -37,8 +37,8 @@ const PortadaListaCoches = () => {
         </div>
       </section>*/}
       <div className="cars">
-        <Card style={{ width: "18rem" }} border="light" className="bordeCards">
-          <Card.Img variant="top" src={suv} />
+        <Card style={{ width: "18rem" }} border="light" className="bordeCards ">
+          <Card.Img variant="top" src={suv} className="suv" />
           <Card.Body>
             <Card.Title>Suvs</Card.Title>
             <Card.Text>
@@ -46,14 +46,16 @@ const PortadaListaCoches = () => {
               turismo, con la robustez propia de los todoterrenos ya que su
               aspecto exterior es parecido al de los 4x4.
             </Card.Text>
-            <Button variant="primary">Ver vehículos</Button>
+            <Button variant="danger" className="colorBtn">
+              Ver vehículos
+            </Button>
           </Card.Body>
         </Card>
       </div>
 
       <div className="cars">
         <Card style={{ width: "18rem" }} border="light" className="bordeCards">
-          <Card.Img variant="top" src={coupe} className="imgPortadaLista" />
+          <Card.Img variant="top" src={coupe} className="coupes" />
           <Card.Body>
             <Card.Title>Coupes</Card.Title>
             <Card.Text>
@@ -61,14 +63,16 @@ const PortadaListaCoches = () => {
               carrocería es mucho más rígida, ya que sólo cuentan con dos
               puertas.
             </Card.Text>
-            <Button variant="primary">Ver vehículos</Button>
+            <Button variant="danger" className="colorBtn">
+              Ver vehículos
+            </Button>
           </Card.Body>
         </Card>
       </div>
 
       <div className="cars">
         <Card style={{ width: "18rem" }} border="light" className="bordeCards">
-          <Card.Img variant="top" src={sedan} />
+          <Card.Img variant="top" src={sedan} className="coupes" />
           <Card.Body>
             <Card.Title>Sedans</Card.Title>
             <Card.Text>
@@ -76,14 +80,16 @@ const PortadaListaCoches = () => {
               considera como una excelente opción de vehículo para la ciudad o
               viajes.
             </Card.Text>
-            <Button variant="primary">Ver vehículos</Button>
+            <Button variant="danger" className="colorBtn">
+              Ver vehículos
+            </Button>
           </Card.Body>
         </Card>
       </div>
 
       <div className="cars">
         <Card style={{ width: "18rem" }} border="light" className="bordeCards">
-          <Card.Img variant="top" src={sport} className="imgPortadaLista" />
+          <Card.Img variant="top" src={sport} className="coupes sport" />
           <Card.Body>
             <Card.Title>Sports</Card.Title>
             <Card.Text>
@@ -91,7 +97,9 @@ const PortadaListaCoches = () => {
               a altas velocidades. Pensados para ser conducidos a altas
               velocidades.
             </Card.Text>
-            <Button variant="primary">Ver vehículos</Button>
+            <Button variant="danger" className="colorBtn">
+              Ver vehículos
+            </Button>
           </Card.Body>
         </Card>
       </div>

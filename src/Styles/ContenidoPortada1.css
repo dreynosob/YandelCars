@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&display=swap");
 .contenedorImgPortada1 {
-  background-image: url("../imgs//fondoPortada1.png");
+  background: url("../imgs//waves4.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

@@ -1,5 +1,5 @@
 .contenedorCochesPortada {
-  width: 90vw;
+  width: 95vw;
   max-width: 1440px;
   margin-bottom: -500px;
   display: grid;
@@ -15,6 +15,18 @@
   width: 250px;
   height: 150px;
 }
+.contenedorCochesPortada .coupes {
+  width: 250px;
+  height: 150px;
+}
+.contenedorCochesPortada .coupes .sport img {
+  background: #fff;
+}
+.contenedorCochesPortada .suv {
+  width: 250px;
+  height: 130px;
+}
+
 .cars {
   background: #fff;
   border-radius: 1rem;
@@ -22,9 +34,15 @@
   width: 340px;
   display: grid;
 }
-
+.colorBtn {
+  background-color: #d70606;
+}
+.colorBtn:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease-in-out 0s;
+}
 .contenedorCochesPortada img:hover {
-  transform: translateY(-6px);
+  transform: translateY(-2px);
   transition: all 0.3s ease-in-out 0s;
 }
 .hoverBoton {
@@ -49,7 +67,7 @@
 
 @media screen and (min-width: 768px) {
   .contenedorCochesPortada {
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .cars {
     align-items: center;

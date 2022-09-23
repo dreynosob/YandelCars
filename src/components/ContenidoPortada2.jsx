@@ -19,11 +19,10 @@ const ContenidoPortada2 = () => {
           automóviles e intercambio de piezas.
         </p>
         <div className="mb-2">
-          <Button variant="primary" size="lg" className="colorFondos">
+          <Button variant="danger" size="lg" className="colorFondos colorBtn">
             Contáctanos
           </Button>
         </div>
-        <hr />
       </div>
     </>
   );

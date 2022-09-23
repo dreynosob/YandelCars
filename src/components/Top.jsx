@@ -21,7 +21,7 @@ const Top = () => {
           <a href="" className="iconosHover">
             <BsFacebook color="white" />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/yandelautos/?hl=es" target="blank">
             <BsInstagram color="white" />
           </a>
           <a href="">
