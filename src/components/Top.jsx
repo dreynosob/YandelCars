@@ -11,7 +11,7 @@ const Top = () => {
       <div className="containerBarraInfo">
         <span className="apartadoTexto">
           <FaPhoneAlt color="white" />
-          Telf. 982245578
+          Telf. 809-262-4037/809-287-7156
         </span>
         <span>
           <FaMailBulk color="white" />

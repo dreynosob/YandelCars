@@ -111,7 +111,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <FaMapMarkerAlt color="white" />
-                  <a href="#!">Dirección: Spain, Coruña</a>
+                  <a href="#!">
+                    C/Paseo de los locutores #74, ens. Quisqueya, Santo Domingo,
+                    Dominican Republic.
+                  </a>
                 </li>
                 <li>
                   <FaMailBulk color="white" />
