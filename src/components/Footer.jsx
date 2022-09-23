@@ -50,8 +50,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            <hr className="clearfix w-100 d-md-none" />
-
             <div className="col-md-3 mx-auto">
               <h5 className="font-weight-bold text-uppercase mt-3 mb-4 tituloListas listaAyuda">
                 AYUDA
@@ -73,8 +71,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            <hr className="clearfix w-100 d-md-none" />
-
             <div className="col-md-3 mx-auto">
               <h5 className="font-weight-bold text-uppercase mt-3 mb-4 tituloListas listaAyuda">
                 ACERCA DE
@@ -95,8 +91,6 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-
-            <hr className="clearfix w-100 d-md-none" />
 
             <div className="col-md-3 mx-auto">
               <h5 className="font-weight-bold text-uppercase mt-3 mb-4 tituloListas listaAyuda">
