@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/YandelCars/static/css/main.e45d17dc.css",
-    "main.js": "/YandelCars/static/js/main.72a1c21a.js",
+    "main.css": "/YandelCars/static/css/main.23a70abc.css",
+    "main.js": "/YandelCars/static/js/main.ac020766.js",
     "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
     "static/media/portada1.png": "/YandelCars/static/media/portada1.b8ba54feb995fc72ae21.png",
     "static/media/logo.jpg": "/YandelCars/static/media/logo.651e2aa323be19aaca0f.jpg",
+    "static/media/dodge.png": "/YandelCars/static/media/dodge.03b2a1c888b37322153e.png",
     "static/media/coupe1.png": "/YandelCars/static/media/coupe1.35a11c50c3cf47c93435.png",
     "static/media/suv1.png": "/YandelCars/static/media/suv1.41de7907d69a60baf819.png",
     "static/media/sport1.png": "/YandelCars/static/media/sport1.4b34bd0b27cd5c98598c.png",
     "static/media/portada2.png": "/YandelCars/static/media/portada2.908bca1ecbfac31bf016.png",
     "static/media/sedan1.jpg": "/YandelCars/static/media/sedan1.6c242ecbfd13feb3d8f1.jpg",
     "index.html": "/YandelCars/index.html",
-    "main.e45d17dc.css.map": "/YandelCars/static/css/main.e45d17dc.css.map",
-    "main.72a1c21a.js.map": "/YandelCars/static/js/main.72a1c21a.js.map",
+    "main.23a70abc.css.map": "/YandelCars/static/css/main.23a70abc.css.map",
+    "main.ac020766.js.map": "/YandelCars/static/js/main.ac020766.js.map",
     "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e45d17dc.css",
-    "static/js/main.72a1c21a.js"
+    "static/css/main.23a70abc.css",
+    "static/js/main.ac020766.js"
   ]
 }
