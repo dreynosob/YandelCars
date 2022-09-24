@@ -1,3 +1,4 @@
+import { NavLink } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
@@ -17,8 +18,8 @@ function Menu() {
       {["sm"].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3 menu">
           <Container fluid>
-            <Navbar.Brand href="#" className="texto logoName">
-              YandelAutos
+            <Navbar.Brand className="texto logoName">
+              <Nav.Link to="/YandelCars">YandelAutos</Nav.Link>
             </Navbar.Brand>
 
             <Navbar.Toggle
@@ -41,28 +42,31 @@ function Menu() {
               <Offcanvas.Body className="colorFondo">
                 <Nav className="justify-content-end flex-grow-1 pe-3 texto">
                   <Buscador />
-                  <Nav.Link href="#action1" className="texto">
+                  <Nav.Link to="/YandelCars" className="texto">
                     YandelAutos
                   </Nav.Link>
-                  <Nav.Link href="#action2" className="texto">
+                  <Nav.Link to="/YandelCars/coches" className="texto">
                     Coches
                   </Nav.Link>
-                  <Nav.Link href="#action2" className="texto">
+                  <Nav.Link to="/YandelCars/garantia" className="texto">
                     Garantía
                   </Nav.Link>
-                  <Nav.Link href="#action2" className="texto">
+                  <Nav.Link href="/YandelCars/conocenos" className="texto">
                     Conocenos
                   </Nav.Link>
                   <NavDropdown
                     title="Servicios"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#action3">Renting</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">Compra</NavDropdown.Item>
+                    <NavDropdown.Item to="/YandelCars/servicios/compra">
+                      Compra
+                    </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">Venta</NavDropdown.Item>
+                    <NavDropdown.Item to="/YandelCars/servicios/venta">
+                      Venta
+                    </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#action4" className="texto">
+                  <Nav.Link to="/YandelCars/contacto" className="texto">
                     Contacto
                   </Nav.Link>
                 </Nav>
