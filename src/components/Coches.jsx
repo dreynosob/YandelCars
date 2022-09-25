@@ -9,6 +9,7 @@ import sedan1 from "../imgs/sedan1.jpg";
 import sport1 from "../imgs/sport1.png";
 
 import "../Styles/Coches.css";
+import { Nav, NavLink } from "react-bootstrap";
 const Coches = () => {
   return (
     <>
@@ -30,7 +31,9 @@ const Coches = () => {
               <p className="card-text">
                 <small className="text-muted">Last updated 3 mins ago</small>
               </p>
-              <Button variant="danger">Contactar</Button>
+              <Button href="/contacto" variant="danger">
+                Contactar
+              </Button>
             </div>
           </div>
         </div>
@@ -54,7 +57,9 @@ const Coches = () => {
               <p className="card-text">
                 <small className="text-muted">Last updated 3 mins ago</small>
               </p>
-              <Button variant="danger">Contactar</Button>
+              <Button href="/contacto" variant="danger">
+                Contactar
+              </Button>
             </div>
           </div>
         </div>
@@ -78,7 +83,9 @@ const Coches = () => {
               <p className="card-text">
                 <small className="text-muted">Last updated 3 mins ago</small>
               </p>
-              <Button variant="danger">Contactar</Button>
+              <Button href="/contacto" variant="danger">
+                Contactar
+              </Button>
             </div>
           </div>
         </div>
@@ -102,7 +109,9 @@ const Coches = () => {
               <p className="card-text">
                 <small className="text-muted">Last updated 3 mins ago</small>
               </p>
-              <Button variant="danger">Contactar</Button>
+              <Button href="/contacto" variant="danger">
+                Contactar
+              </Button>
             </div>
           </div>
         </div>
@@ -126,7 +135,9 @@ const Coches = () => {
               <p className="card-text">
                 <small className="text-muted">Last updated 3 mins ago</small>
               </p>
-              <Button variant="danger">Contactar</Button>
+              <Button href="/contacto" variant="danger">
+                Contactar
+              </Button>
             </div>
           </div>
         </div>
@@ -150,7 +161,10 @@ const Coches = () => {
               <p className="card-text">
                 <small className="text-muted">Last updated 3 mins ago</small>
               </p>
-              <Button variant="danger">Contactar</Button>
+
+              <Button href="/contacto" variant="danger">
+                Contactar
+              </Button>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ function Menu() {
         <Navbar key={expand} expand={expand} className="mb-3 menu">
           <Container fluid>
             <Navbar.Brand className="texto logoName">
-              <Nav.Link to="/YandelCars">YandelAutos</Nav.Link>
+              <NavLink to="/YandelCars">YandelAutos</NavLink>
             </Navbar.Brand>
 
             <Navbar.Toggle
@@ -42,18 +42,34 @@ function Menu() {
               <Offcanvas.Body className="colorFondo">
                 <Nav className="justify-content-end flex-grow-1 pe-3 texto">
                   <Buscador />
-                  <Nav.Link to="/YandelCars" className="texto">
+                  <NavLink
+                    to="/YandelCars"
+                    className="texto"
+                    activeClassName="active"
+                  >
                     YandelAutos
-                  </Nav.Link>
-                  <Nav.Link to="/YandelCars/coches" className="texto">
+                  </NavLink>
+                  <NavLink
+                    to="YandelCars/coches"
+                    className="texto"
+                    activeClassName="active"
+                  >
                     Coches
-                  </Nav.Link>
-                  <Nav.Link to="/YandelCars/garantia" className="texto">
+                  </NavLink>
+                  <NavLink
+                    to="/garantia"
+                    className="texto"
+                    activeClassName="active"
+                  >
                     Garantía
-                  </Nav.Link>
-                  <Nav.Link href="/YandelCars/conocenos" className="texto">
+                  </NavLink>
+                  <NavLink
+                    to="/conocenos"
+                    className="texto"
+                    activeClassName="active"
+                  >
                     Conocenos
-                  </Nav.Link>
+                  </NavLink>
                   <NavDropdown
                     title="Servicios"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
@@ -61,14 +77,18 @@ function Menu() {
                     <NavDropdown.Item to="/YandelCars/servicios/compra">
                       Compra
                     </NavDropdown.Item>
-                    <NavDropdown.Divider />
+                    <NavDropdown.Divider color="red" />
                     <NavDropdown.Item to="/YandelCars/servicios/venta">
                       Venta
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link to="/YandelCars/contacto" className="texto">
+                  <NavLink
+                    to="/YandelCars/contacto"
+                    className="texto"
+                    activeClassName="active"
+                  >
                     Contacto
-                  </Nav.Link>
+                  </NavLink>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

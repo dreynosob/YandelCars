@@ -15,9 +15,11 @@ import {
   HashRouter,
   Route,
   Routes,
+  Link,
 } from "react-router-dom";
 import Coches from "./components/Coches";
 import Contacto from "./components/Contacto";
+import Naves from "./components/Nav";
 function App() {
   return (
     <div className="App">
@@ -29,7 +31,8 @@ function App() {
             element={
               <>
                 <Top />
-                <Menu />
+
+                <Naves />
                 <ContenidoPortada1 />
                 <ContenidoPortada2 />
                 <PortadaListaCoches />
@@ -40,11 +43,11 @@ function App() {
 
           <Route
             exact
-            path="/YandelCars/coches"
+            path="/coches"
             element={
               <>
                 <Top />
-                <Menu />
+                <Naves />
                 <Coches />
                 <Footer2 />
               </>
@@ -53,11 +56,11 @@ function App() {
 
           <Route
             exact
-            path="/YandelCars/contacto"
+            path="/contacto"
             element={
               <>
                 <Top />
-                <Menu />
+                <Naves />
                 <Contacto />
                 <Footer2 />
               </>
