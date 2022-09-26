@@ -12,16 +12,17 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/Menu.css";
 import Buscador from "../components/Buscador";
+import logoYandel from "../imgs/logoYandel.png";
 
 const Naves = () => {
   return (
     <>
-      {["sm"].map((expand) => (
+      {["xl"].map((expand) => (
         <Navbar key={expand} expand={expand} className="mb-3 menu">
           <Container fluid>
             <Navbar.Brand className="texto logoName">
               <NavLink to="/YandelCars" className="texto">
-                YandelAutos
+                <img src={logoYandel} />
               </NavLink>
             </Navbar.Brand>
             <Navbar.Toggle
