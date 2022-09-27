@@ -1,34 +1,15 @@
-h2 {
-  color: #1b1a1ae7;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  justify-content: left;
+.contenedorForm {
+  width: 50%;
+  margin: 0 auto;
+  border: 3px solid rgba(252, 250, 250, 0.895);
+  border-radius: 3%;
+  background-color: rgba(252, 250, 250, 0.772);
 }
-
-.contedorContacto {
-  height: 100%;
-  padding-top: 10vh;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+.color {
+  background-color: #d70606;
+  color: white;
+  font-weight: bold;
 }
-.contedorContacto .contactoItems {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0.2rem;
-  font-size: 1.5rem;
-}
-@media only screen and (max-width: 900px) {
-  .contedorContacto .contactoItems {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 2px;
-    margin-top: -0.7rem;
-  }
-  h2 {
-    font-size: 2rem;
-    margin-top: 3.5rem;
-  }
+.margen {
+  margin-bottom: 1em;
 }

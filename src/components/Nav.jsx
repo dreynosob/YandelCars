@@ -56,11 +56,11 @@ const Naves = () => {
                   </Nav.Link>
                   <Nav.Link>
                     <NavLink
-                      to="/garantia"
+                      to="/terminos"
                       activeClassName="active"
                       className="colorContentHamburguer texto"
                     >
-                      Garantia
+                      Términos y Condiciones
                     </NavLink>
                   </Nav.Link>
 

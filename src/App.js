@@ -20,6 +20,7 @@ import {
 import Coches from "./components/Coches";
 import Contacto from "./components/Contacto";
 import Naves from "./components/Nav";
+import NotFound from "./components/NotFound";
 function App() {
   return (
     <div className="App">
@@ -49,6 +50,18 @@ function App() {
                 <Top />
                 <Naves />
                 <Coches />
+                <Footer2 />
+              </>
+            }
+          />
+          <Route
+            exact
+            path="/terminos"
+            element={
+              <>
+                <Top />
+                <Naves />
+                <NotFound />
                 <Footer2 />
               </>
             }

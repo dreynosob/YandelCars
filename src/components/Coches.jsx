@@ -21,8 +21,10 @@ import mini2 from "../imgs/mini2.png";
 import mini3 from "../imgs/mini3.png";
 import mini4 from "../imgs/mini4.png";
 import mini5 from "../imgs/mini5.png";
-//mercedes
-import mercedes1 from "../imgs/mercedes1.png";
+//Ford
+import ford from "../imgs/ford.png";
+import ford3 from "../imgs/ford3.png";
+import ford2 from "../imgs/ford2.png";
 import Carousel from "react-bootstrap/Carousel";
 //Durango
 import durango1 from "../imgs/durango1.png";
@@ -115,13 +117,11 @@ const Coches = () => {
               <p className="card-text">
                 <span>Especificaciones: </span>
                 Vehículo en perfectas condiciones, interior impecable. Recibimos
-                tu vehiculo de menor valor.{" "}
+                tu vehiculo de menor valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
-              <Button href="/contacto" variant="danger">
+
+              <Button href="/contacto" variant="danger" className="btnCoches">
                 Contactar
               </Button>
             </div>
@@ -132,21 +132,29 @@ const Coches = () => {
       <div className="card mb-3">
         <div className="row no-gutters">
           <div className="col-md-4">
-            <img src={mercedes1} className="card-img" alt="Range Rover" />
+            <Carousel fade>
+              <Carousel.Item>
+                <img className="d-block w-100" src={ford} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={ford2} alt="Second slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={ford3} alt="Third slide" />
+              </Carousel.Item>
+            </Carousel>
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">Mercedes Benz</h5>
-              <h6 className="card-title">C300 2009</h6>
+              <h5 className="card-title">Ford</h5>
+              <h6 className="card-title">Escape 2012</h6>
               <p className="card-text">
                 <span>Especificaciones: </span>
                 Vehículo en perfectas condiciones, interior impecable. Recibimos
-                tu vehiculo de menor valor.{" "}
+                tu vehiculo de menor valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
+
               <Button href="/contacto" variant="danger">
                 Contactar
               </Button>
@@ -185,12 +193,10 @@ const Coches = () => {
               <p className="card-text">
                 <span>Especificaciones: </span>
                 Vehículo en perfectas condiciones, interior impecable. Recibimos
-                tu vehiculo de menor valor.{" "}
+                tu vehiculo de menor valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
+
               <Button href="/contacto" variant="danger">
                 Contactar
               </Button>
@@ -233,9 +239,7 @@ const Coches = () => {
                 tu vehiculo de menor valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
+
               <Button href="/contacto" variant="danger">
                 Contactar
               </Button>
@@ -313,9 +317,7 @@ const Coches = () => {
                 pantalla en los asientos, sunroof y mucho mas!!
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
+
               <Button href="/contacto" variant="danger">
                 Contactar
               </Button>
@@ -386,9 +388,6 @@ const Coches = () => {
                 valor. Recibimos tu vehiculo de menor valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
 
               <Button href="/contacto" variant="danger">
                 Contactar
@@ -436,9 +435,6 @@ const Coches = () => {
                 vehiculo de menor valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
 
               <Button href="/contacto" variant="danger">
                 Contactar
@@ -490,9 +486,6 @@ const Coches = () => {
                 valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
 
               <Button href="/contacto" variant="danger">
                 Contactar
@@ -544,9 +537,6 @@ const Coches = () => {
                 vehiculo de menor valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-              <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p>
 
               <Button href="/contacto" variant="danger">
                 Contactar
