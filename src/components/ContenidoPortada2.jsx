@@ -3,6 +3,7 @@ import React from "react";
 
 import portada3 from "../imgs/portada2.png";
 import "../Styles/ContenidoPortada2.css";
+import { NavLink } from "react-router-dom";
 const ContenidoPortada2 = () => {
   return (
     <>
@@ -19,9 +20,11 @@ const ContenidoPortada2 = () => {
           automóviles e intercambio de piezas.
         </p>
         <div className="mb-2">
-          <Button variant="danger" size="lg" className="colorFondos colorBtn">
-            Contáctanos
-          </Button>
+          <NavLink to="/contacto">
+            <Button variant="danger" size="lg" className="colorFondos colorBtn">
+              Contáctanos
+            </Button>
+          </NavLink>
         </div>
       </div>
     </>

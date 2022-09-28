@@ -4,6 +4,7 @@ import durango1 from "../imgs/durango1.png";
 import mercedes1 from "../imgs/mercedes1.png";
 import "../Styles/PortadaListaCoches.css";
 import Button from "react-bootstrap/Button";
+import { NavLink } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 const PortadaListaCoches = () => {
   return (
@@ -20,7 +21,9 @@ const PortadaListaCoches = () => {
             <p className="card-text colorText"> ●Precio: US$18,500.</p>
           </div>
           <div className="card-footer">
-            <Button variant="danger">Ver vehículo</Button>
+            <NavLink to="/coches">
+              <Button variant="danger">Ver vehículo</Button>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -36,7 +39,9 @@ const PortadaListaCoches = () => {
             <p className="card-text colorText"> ●Precio: US$18,500.</p>
           </div>
           <div className="card-footer">
-            <Button variant="danger">Ver vehículo</Button>
+            <NavLink to="/coches">
+              <Button variant="danger">Ver vehículo</Button>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -53,7 +58,9 @@ const PortadaListaCoches = () => {
             <p className="card-text colorText"> ●Precio: US$18,500.</p>
           </div>
           <div className="card-footer">
-            <Button variant="danger">Ver vehículo</Button>
+            <NavLink to="/coches">
+              <Button variant="danger">Ver vehículo</Button>
+            </NavLink>
           </div>
         </div>
       </div>

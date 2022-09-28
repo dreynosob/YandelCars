@@ -71,7 +71,7 @@ import yaris5 from "../imgs/yaris5.png";
 import yaris6 from "../imgs/yaris6.png";
 
 import "../Styles/Coches.css";
-import { Nav, NavLink } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 const Coches = () => {
   return (
     <>
@@ -121,9 +121,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
 
-              <Button href="/contacto" variant="danger" className="btnCoches">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -155,9 +155,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
 
-              <Button href="/contacto" variant="danger">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -197,9 +197,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
 
-              <Button href="/contacto" variant="danger">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -239,10 +239,9 @@ const Coches = () => {
                 tu vehiculo de menor valor.
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-
-              <Button href="/contacto" variant="danger">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -317,10 +316,9 @@ const Coches = () => {
                 pantalla en los asientos, sunroof y mucho mas!!
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
-
-              <Button href="/contacto" variant="danger">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -389,9 +387,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
 
-              <Button href="/contacto" variant="danger">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -436,9 +434,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
 
-              <Button href="/contacto" variant="danger">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -487,9 +485,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
 
-              <Button href="/contacto" variant="danger">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -538,9 +536,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
 
-              <Button href="/contacto" variant="danger">
-                Contactar
-              </Button>
+              <NavLink to="/contacto">
+                <Button variant="danger">Contactar</Button>
+              </NavLink>
             </div>
           </div>
         </div>
