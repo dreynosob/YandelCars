@@ -21,6 +21,7 @@ import Coches from "./components/Coches";
 import Contacto from "./components/Contacto";
 import Naves from "./components/Nav";
 import NotFound from "./components/NotFound";
+import About from "./components/About";
 function App() {
   return (
     <div className="App">
@@ -75,6 +76,19 @@ function App() {
                 <Top />
                 <Naves />
                 <Contacto />
+                <Footer2 />
+              </>
+            }
+          />
+
+          <Route
+            exact
+            path="/nosotros"
+            element={
+              <>
+                <Top />
+                <Naves />
+                <About />
                 <Footer2 />
               </>
             }

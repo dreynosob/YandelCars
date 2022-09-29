@@ -1,0 +1,29 @@
+.text-center {
+  color: black;
+}
+.contenedorAbout {
+  margin-left: 10px;
+}
+.parrafoAbout {
+  margin-left: 10px;
+}
+.colorTitulosAbout {
+  font-weight: 700;
+}
+h4 {
+  color: #1b1a1ae7;
+}
+
+p {
+  text-align: justify;
+}
+.contenedorAbout span {
+  color: #d70606;
+  font-weight: 700;
+}
+.anchoPabout p {
+  width: auto;
+}
+hr {
+  border-bottom: 1px solid rgba(255, 0, 0, 0.968);
+}

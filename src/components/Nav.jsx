@@ -63,16 +63,16 @@ const Naves = () => {
                       Términos y Condiciones
                     </NavLink>
                   </Nav.Link>
+                  <Nav.Link>
+                    <NavLink
+                      to="/nosotros"
+                      activeClassName="active"
+                      className="colorContentHamburguer texto"
+                    >
+                      FAQs
+                    </NavLink>
+                  </Nav.Link>
 
-                  <NavDropdown
-                    title="Servicios"
-                    id="navbarScrollingDropdown"
-                    className="colorContentHamburguer texto"
-                  >
-                    <NavDropdown.Item>Venta</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item>Compra</NavDropdown.Item>
-                  </NavDropdown>
                   <Nav.Link>
                     <NavLink
                       to="/contacto"

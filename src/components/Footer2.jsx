@@ -22,16 +22,13 @@ const Footer = () => {
                     COCHES
                   </a>
                 </li>
+
                 <li>
                   <a href="#!" className="tituloListas">
-                    GARANTÍA
+                    TÉRMINOS Y CONDICIONES
                   </a>
                 </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    CONÓCENOS
-                  </a>
-                </li>
+
                 <li>
                   <a href="#!" className="tituloListas">
                     SERVICIOS
@@ -40,11 +37,6 @@ const Footer = () => {
                 <li>
                   <a href="#!" className="tituloListas">
                     CONTACTO
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    TÉRMINOS Y CONDICIONES
                   </a>
                 </li>
               </ul>

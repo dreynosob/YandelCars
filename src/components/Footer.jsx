@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import { FaMapMarkerAlt, FaMailBulk, FaPhoneAlt } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 import "../Styles/Footer.css";
 
 const Footer = () => {
@@ -12,41 +13,35 @@ const Footer = () => {
               <h5 className="font-weight-bold text-uppercase mt-3 mb-4"></h5>
 
               <ul className="list-unstyled listaGeneralInfo">
-                <li>
-                  <a href="#!" className="tituloListas logoName">
-                    YandelAutos
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    COCHES
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    GARANTÍA
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    CONÓCENOS
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    SERVICIOS
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    CONTACTO
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    TÉRMINOS Y CONDICIONES
-                  </a>
-                </li>
+                <NavLink to="/YandelCars">
+                  <li>
+                    <a className="tituloListas logoName">YandelAutos</a>
+                  </li>
+                </NavLink>
+
+                <NavLink to="/coches">
+                  <li>
+                    <a className="tituloListas">COCHES</a>
+                  </li>
+                </NavLink>
+
+                <NavLink to="/terminos">
+                  <li>
+                    <a className="tituloListas">TÉRMINOS Y CONDICIONES</a>
+                  </li>
+                </NavLink>
+
+                <NavLink to="/servicios">
+                  <li>
+                    <a className="tituloListas">SERVICIOS</a>
+                  </li>
+                </NavLink>
+
+                <NavLink to="/contacto">
+                  <li>
+                    <a className="tituloListas">CONTACTO</a>
+                  </li>
+                </NavLink>
               </ul>
             </div>
 
