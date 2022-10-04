@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&display=swap");
 .texto {
-  color: #fff;
+  color: #ffde00;
   font-weight: bold;
 }
 
 .menu {
-  background-color: #d70606;
+  background-color: #000;
   margin: 0;
 }
 .borderToggle {
   border: solid 2px #fff;
 }
 .colorFondo {
-  background-color: #d70606;
+  background-color: #000;
 }
 
 .logoName img {
-  width: 130px;
-  height: 50px;
+  width: 230px;
+  height: 100px;
 }
 .logoNameResponsive {
   font-family: "Lobster", cursive;

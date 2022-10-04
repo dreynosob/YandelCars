@@ -1,18 +1,20 @@
 import Button from "react-bootstrap/Button";
 import React from "react";
 
-import portada3 from "../imgs/portada2.png";
+import portada1 from "../imgs/portada1.png";
+import picanto from "../imgs/kiaPicantoPortada.png";
+import portadaDealers from "../imgs/portadaDealers.jpg";
 import "../Styles/ContenidoPortada2.css";
 import { NavLink } from "react-router-dom";
 const ContenidoPortada2 = () => {
   return (
     <>
       <div className="flotarDerecha">
-        <img src={portada3} className="flotarIzquierda" alt="Toyota Runner" />
+        <img src={portada1} className="flotarIzquierda" alt="Toyota Runner" />
         <h3>¿Por qué elegirnos?</h3>
         <p>
           <a href="#" className="brandNameP">
-            <span>YandelAutos </span>
+            <span>Autoscertifica2 </span>
           </a>
           ofrece el paquete completo que organizamos seguros. Contamos con
           completas instalaciones de taller. Ofreciendo el mejor servicio
@@ -21,7 +23,11 @@ const ContenidoPortada2 = () => {
         </p>
         <div className="mb-2">
           <NavLink to="/contacto">
-            <Button variant="danger" size="lg" className="colorFondos colorBtn">
+            <Button
+              variant="primary"
+              size="lg"
+              className="colorFondos colorBtn"
+            >
               Contáctanos
             </Button>
           </NavLink>

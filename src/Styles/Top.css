@@ -1,13 +1,15 @@
 .containerBarraInfo {
   color: white;
   padding: 7px 0px;
-  background-color: #1b1a1ae7;
+  background-color: #131212e7;
   font-size: 14px;
 }
 .containerBarraInfo .apartadoTexto {
   margin-left: 35px;
   margin-right: 20px;
   white-space: nowrap;
+  color: rgba(255, 255, 255, 0.776);
+  font-weight: 600;
 }
 .containerBarraInfo .social {
   text-align: right;

@@ -1,18 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 .contenedorImgPortada1 {
-  background: url("../imgs//waves4.jpg");
+  background: url("../imgs//waves5.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .contenedorPortada1 {
-  margin-left: 10px;
-  margin-top: 20px;
+  margin-left: 0;
+  margin-top: -1em;
+  padding: 4em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../imgs/portadaDealers.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .contenidoPortada1Titulo {
   font-family: "Lobster", cursive;
-  font-size: 28px;
+  font-size: 78px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.925);
+  display: flex;
 }
+.contenidoPortada1Titulo2 {
+  margin-top: 1em;
+  color: #ffde00;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 38px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+.spanPortadaTitulo2 {
+  color: rgba(255, 255, 255, 0.925);
+}
+
 img {
   float: right;
   width: 800px;
@@ -22,10 +47,12 @@ img {
 h3 {
   font-weight: 300;
 }
-p {
+.colorTextoportada1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  text-align: justify;
+  font-size: 20px;
+
+  color: aliceblue;
+  font-weight: bold;
 }
 .botonPortada1 {
   margin-top: 160px;

@@ -9,10 +9,6 @@ const About = () => {
     <>
       <div>
         <ContenidoPortada1 />
-        <p className="parrafoAbout">
-          Somos una empresa con más de 5 años de experiencia en el sector,
-          nuestros clientes nos abalan.
-        </p>
       </div>
       <div className="contenedorAbout">
         <div>
@@ -69,7 +65,9 @@ const About = () => {
             apostando por un trato cercano y un asesoramiento de 10.
           </p>
           <NavLink to="/coches">
-            <Button variant="danger">¡Sumate a nosotros!</Button>
+            <Button variant="primary" className="colorFondos colorBtn">
+              ¡Sumate a nosotros!
+            </Button>
           </NavLink>
         </div>
         <hr />

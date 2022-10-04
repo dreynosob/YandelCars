@@ -2,11 +2,16 @@ import React from "react";
 
 import Button from "react-bootstrap/Button";
 
-import suv1 from "../imgs/suv1.png";
+//Picanto
 
-import dodge from "../imgs/dodge.png";
-import sedan1 from "../imgs/sedan1.jpg";
-import sport1 from "../imgs/sport1.png";
+import picanto5 from "../imgs/picanto5.png";
+import picanto6 from "../imgs/picanto6.jpeg";
+import picanto9 from "../imgs/picanto9.jpeg";
+import picanto10 from "../imgs/picanto10.jpeg";
+import picanto11 from "../imgs/picanto11.jpeg";
+import picanto12 from "../imgs/picanto12.jpeg";
+import picanto14 from "../imgs/picanto14.jpeg";
+import picanto15 from "../imgs/picanto15.jpeg";
 //Range Rover
 import range1 from "../imgs/range1.png";
 import range2 from "../imgs/range2.png";
@@ -80,40 +85,70 @@ const Coches = () => {
           <div className="col-md-4">
             <Carousel fade>
               <Carousel.Item>
-                <img className="d-block w-100" src={range1} alt="First slide" />
+                <img
+                  className="d-block w-100"
+                  src={picanto5}
+                  alt="First slide"
+                />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src={range2}
+                  src={picanto10}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={picanto6}
                   alt="Second slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <img className="d-block w-100" src={range3} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src={picanto9}
+                  alt="Third slide"
+                />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="d-block w-100" src={range4} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src={picanto11}
+                  alt="Third slide"
+                />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="d-block w-100" src={range5} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src={picanto12}
+                  alt="Third slide"
+                />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img className="d-block w-100" src={range6} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src={picanto14}
+                  alt="Third slide"
+                />
               </Carousel.Item>
-
               <Carousel.Item>
-                <img className="d-block w-100" src={range7} alt="Third slide" />
+                <img
+                  className="d-block w-100"
+                  src={picanto15}
+                  alt="Third slide"
+                />
               </Carousel.Item>
             </Carousel>
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">Range Rover</h5>
-              <h6 className="card-title">Supercharged 2014</h6>
+              <h5 className="card-title">Kia Picanto</h5>
+              <h6 className="card-title">Berlina</h6>
               <p className="card-text">
                 <span>Especificaciones: </span>
                 Vehículo en perfectas condiciones, interior impecable. Recibimos
@@ -122,7 +157,9 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>
@@ -156,7 +193,9 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>
@@ -198,7 +237,9 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>
@@ -240,7 +281,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>
@@ -317,7 +360,9 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>
@@ -388,7 +433,9 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>
@@ -435,7 +482,9 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>
@@ -486,7 +535,9 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>
@@ -537,7 +588,9 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="danger">Contactar</Button>
+                <Button variant="primary" className="colorFondos colorBtn">
+                  Contactar
+                </Button>
               </NavLink>
             </div>
           </div>

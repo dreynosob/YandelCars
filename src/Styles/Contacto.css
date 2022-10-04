@@ -1,9 +1,12 @@
 .contenedorForm {
   width: 50%;
-  margin: 0 auto;
+
+  margin: 15px auto;
   border: 3px solid rgba(252, 250, 250, 0.895);
   border-radius: 3%;
   background-color: rgba(252, 250, 250, 0.772);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px;
 }
 .color {
   background-color: #d70606;
@@ -12,4 +15,11 @@
 }
 .margen {
   margin-bottom: 1em;
+}
+.fondoContact {
+  background: url("../imgs/portadaDealers.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-top: -1em;
+  padding-bottom: 1em;
 }

@@ -15,7 +15,7 @@ const Footer = () => {
               <ul className="list-unstyled listaGeneralInfo">
                 <NavLink to="/YandelCars">
                   <li>
-                    <a className="tituloListas logoName">YandelAutos</a>
+                    <a className="tituloListas logoName">Autoscertifica2</a>
                   </li>
                 </NavLink>
 
@@ -95,19 +95,19 @@ const Footer = () => {
               <ul className="list-unstyled listaAyuda ">
                 <li>
                   <a href="#!" className="logoName">
-                    YandelAutos.com
+                    Autoscertifica2
                   </a>
                 </li>
                 <li>
                   <FaMapMarkerAlt color="white" />
                   <a href="#!">
-                    C/Paseo de los locutores #74, ens. Quisqueya, Santo Domingo,
-                    Dominican Republic.
+                    Av/Rómulo Betancourt #538, Santo Domingo, Dominican
+                    Republic.
                   </a>
                 </li>
                 <li>
                   <FaMailBulk color="white" />
-                  <a href="#!"> Email: YandelAutos@gmail.com</a>
+                  <a href="#!"> Email: Autoscertifica2@gmail.com</a>
                 </li>
                 <li>
                   <FaPhoneAlt color="white" />

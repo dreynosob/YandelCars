@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/Menu.css";
 import Buscador from "../components/Buscador";
 import logoYandel from "../imgs/logoYandel.png";
+import logoCertified from "../imgs/logoCertified.png";
 
 const Naves = () => {
   return (
@@ -22,7 +23,7 @@ const Naves = () => {
           <Container fluid>
             <Navbar.Brand className="texto logoName">
               <NavLink to="/YandelCars" className="texto">
-                <img src={logoYandel} />
+                <img src={logoCertified} />
               </NavLink>
             </Navbar.Brand>
             <Navbar.Toggle
@@ -39,7 +40,7 @@ const Naves = () => {
                   className="texto logoNameResponsive"
                   id={`offcanvasNavbarLabel-expand-${expand}`}
                 >
-                  YandelAutos
+                  AutosCertifica2
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="colorFondo">
