@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/YandelCars/static/css/main.f19f85ca.css",
-    "main.js": "/YandelCars/static/js/main.769ba7ee.js",
+    "main.css": "/YandelCars/static/css/main.a122325a.css",
+    "main.js": "/YandelCars/static/js/main.6ea2a897.js",
     "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
+    "static/media/picanto5.png": "/YandelCars/static/media/picanto5.6993cb3394901307a35f.png",
     "static/media/ford.png": "/YandelCars/static/media/ford.470b31a3dcd869425a85.png",
     "static/media/mini2.png": "/YandelCars/static/media/mini2.9cce5a7cd2300f12a042.png",
     "static/media/mini4.png": "/YandelCars/static/media/mini4.af046b5410931b19b72c.png",
@@ -57,19 +58,25 @@
     "static/media/land6.png": "/YandelCars/static/media/land6.8292fe45f54e0c861e7b.png",
     "static/media/portada1.png": "/YandelCars/static/media/portada1.b8ba54feb995fc72ae21.png",
     "static/media/logoYandel.png": "/YandelCars/static/media/logoYandel.fb98bab6d6f406292473.png",
+    "static/media/picanto6.jpeg": "/YandelCars/static/media/picanto6.1925fd75fbfa34e670fa.jpeg",
+    "static/media/picanto10.jpeg": "/YandelCars/static/media/picanto10.2f4c9bd850b9c1ad04e4.jpeg",
+    "static/media/picanto11.jpeg": "/YandelCars/static/media/picanto11.b320ddea10f3580b3323.jpeg",
     "static/media/logo.jpg": "/YandelCars/static/media/logo.651e2aa323be19aaca0f.jpg",
-    "static/media/dodge.png": "/YandelCars/static/media/dodge.03b2a1c888b37322153e.png",
-    "static/media/suv1.png": "/YandelCars/static/media/suv1.41de7907d69a60baf819.png",
-    "static/media/sport1.png": "/YandelCars/static/media/sport1.4b34bd0b27cd5c98598c.png",
-    "static/media/portada2.png": "/YandelCars/static/media/portada2.908bca1ecbfac31bf016.png",
-    "static/media/sedan1.jpg": "/YandelCars/static/media/sedan1.6c242ecbfd13feb3d8f1.jpg",
+    "static/media/picanto14.jpeg": "/YandelCars/static/media/picanto14.4cc63cdca57603e2ce31.jpeg",
+    "static/media/picanto12.jpeg": "/YandelCars/static/media/picanto12.71863abbc54265dd0ddf.jpeg",
+    "static/media/portadaDealers.jpg": "/YandelCars/static/media/portadaDealers.5ec3d97d0b829e852bdc.jpg",
+    "static/media/picanto15.jpeg": "/YandelCars/static/media/picanto15.2213b86d9e3c2c018157.jpeg",
+    "static/media/picanto9.jpeg": "/YandelCars/static/media/picanto9.b52e94b53e33fef58ef7.jpeg",
+    "static/media/kiaPicantoPortada.png": "/YandelCars/static/media/kiaPicantoPortada.03c5a4292b79028f3918.png",
+    "static/media/logoCertified.png": "/YandelCars/static/media/logoCertified.0e3d2678c5e7041a2c07.png",
+    "static/media/waves5.jpg": "/YandelCars/static/media/waves5.8dcea10a90a950216d65.jpg",
     "index.html": "/YandelCars/index.html",
-    "main.f19f85ca.css.map": "/YandelCars/static/css/main.f19f85ca.css.map",
-    "main.769ba7ee.js.map": "/YandelCars/static/js/main.769ba7ee.js.map",
+    "main.a122325a.css.map": "/YandelCars/static/css/main.a122325a.css.map",
+    "main.6ea2a897.js.map": "/YandelCars/static/js/main.6ea2a897.js.map",
     "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f19f85ca.css",
-    "static/js/main.769ba7ee.js"
+    "static/css/main.a122325a.css",
+    "static/js/main.6ea2a897.js"
   ]
 }
