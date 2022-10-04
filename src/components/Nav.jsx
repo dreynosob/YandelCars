@@ -27,7 +27,7 @@ const Naves = () => {
               </NavLink>
             </Navbar.Brand>
             <Navbar.Toggle
-              className="borderToggle"
+              className="borderToggle "
               aria-controls={`offcanvasNavbar-expand-${expand}`}
             />
             <Navbar.Offcanvas

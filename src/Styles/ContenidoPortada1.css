@@ -66,4 +66,24 @@ h3 {
   p {
     margin-right: 10px;
   }
+  .contenedorPortada1 {
+    background: url("../imgs/portadaDealers.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .contenidoPortada1Titulo {
+    font-family: "Lobster", cursive;
+    font-size: 48px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.925);
+    height: auto;
+  }
+  .contenidoPortada1Titulo2 {
+    margin-top: 0;
+    color: #ffde00;
+    font-family: "Alfa Slab One", cursive;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
 }

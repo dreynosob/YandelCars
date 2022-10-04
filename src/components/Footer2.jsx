@@ -108,7 +108,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <FaPhoneAlt color="white" />
-                  <a href="#!"> Teléfono: 982245578</a>
+                  <a href="#!"> Teléfono: 809-472-6144</a>
                 </li>
               </ul>
             </div>
@@ -117,7 +117,8 @@ const Footer = () => {
 
         <div className="footer-copyright text-left py-3">
           <a href="/">
-            © 2022 Copyright YandelAutos, Inc. Todos los derechos reservados
+            © 2022 Copyright © 2022 Copyright , Inc. Todos los derechos
+            reservados
           </a>
         </div>
       </div>
