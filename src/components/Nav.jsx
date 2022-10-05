@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 //Router
@@ -19,7 +19,11 @@ const Naves = () => {
   return (
     <>
       {["xl"].map((expand) => (
-        <Navbar key={expand} expand={expand} className="mb-3 menu">
+        <Navbar
+          key={expand}
+          expand={expand}
+          className="mb-3 menu container-fluid"
+        >
           <Container fluid>
             <Navbar.Brand className="texto logoName">
               <NavLink to="/YandelCars" className="texto">
@@ -37,7 +41,7 @@ const Naves = () => {
             >
               <Offcanvas.Header className="colorFondo" closeButton>
                 <Offcanvas.Title
-                  className="texto logoNameResponsive"
+                  className=" logoNameResponsive"
                   id={`offcanvasNavbarLabel-expand-${expand}`}
                 >
                   AutosCertifica2

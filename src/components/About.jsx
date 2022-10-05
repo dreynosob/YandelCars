@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="contenedorAbout">
         <div>
-          <h2 className="colorTitulosAbout">Emprendiendo el viaje</h2>
+          <h2 className="colorTitulosAbout">1. Emprendiendo el viaje</h2>
           <p>
             Juntaron a un equipo de personas con experiencia en el mundo del
             motor, tecnología y marketing y se lanzaron a construir un nuevo
@@ -35,7 +35,7 @@ const About = () => {
         </div>
 
         <div className="anchoPabout">
-          <h2 className="colorTitulosAbout">¿Qué ruta hemos seguido?</h2>
+          <h2 className="colorTitulosAbout">2. ¿Qué ruta hemos seguido?</h2>
           <h4>Nuestros valores: </h4>
           <p>
             <span>Sencillez:</span> Proceso online y presencial, que hace que
@@ -56,7 +56,7 @@ const About = () => {
 
         <div className="anchoPabout">
           <h2 className="colorTitulosAbout">
-            Continuar con el camino, hasta llegar a nuestro destino
+            3. Continuar con el camino, hasta llegar a nuestro destino
           </h2>
           <p>
             Lo que nos motiva es el futuro y seguir transformando el mercado de
@@ -64,7 +64,7 @@ const About = () => {
             presencial, sin perder de vista la satisfacción de nuestros clientes
             apostando por un trato cercano y un asesoramiento de 10.
           </p>
-          <NavLink to="/coches">
+          <NavLink to="/contacto">
             <Button variant="primary" className="colorFondos colorBtn">
               ¡Sumate a nosotros!
             </Button>

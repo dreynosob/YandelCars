@@ -14,16 +14,12 @@ import { FcCustomerSupport, FcIphone, FcGoogle } from "react-icons/fc";
 const Top = () => {
   return (
     <>
-      <div className="containerBarraInfo">
+      <div className="containerBarraInfo ">
         <span className="apartadoTexto">
           <FcCustomerSupport />
           Oficina. 809-472-6144
         </span>
 
-        <span className="apartadoTexto">
-          <FcIphone />
-          Celular. 829 942 8820
-        </span>
         <span className="apartadoTexto">
           <FaWhatsapp color="#25D366" />
           Whatsapp. 809-262-4037 / 809-861-0901

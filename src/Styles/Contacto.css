@@ -23,3 +23,20 @@
   margin-top: -1em;
   padding-bottom: 1em;
 }
+@media only screen and (max-width: 900px) {
+  .contenedorForm {
+    width: 70%;
+  }
+  .fondoContact {
+    padding-bottom: 1em;
+    background-size: cover;
+    margin-bottom: -1em;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .fondoContact {
+    padding-bottom: 1em;
+    background-size: cover;
+    margin-bottom: -1em;
+  }
+}

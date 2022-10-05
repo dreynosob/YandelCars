@@ -3,6 +3,9 @@
   padding: 7px 0px;
   background-color: #131212e7;
   font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .containerBarraInfo .apartadoTexto {
   margin-left: 35px;
@@ -12,7 +15,6 @@
   font-weight: 600;
 }
 .containerBarraInfo .social {
-  text-align: right;
   font-size: 14px;
   float: right;
   margin-right: 35px;
@@ -25,5 +27,10 @@
 @media only screen and (max-width: 767px) {
   .containerBarraInfo {
     display: none;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .containerBarraInfo {
+    padding-bottom: 23px;
   }
 }
