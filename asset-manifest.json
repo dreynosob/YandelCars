@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YandelCars/static/css/main.ecee059b.css",
-    "main.js": "/YandelCars/static/js/main.8fc03cbb.js",
+    "main.css": "/YandelCars/static/css/main.5c8c7626.css",
+    "main.js": "/YandelCars/static/js/main.59dca759.js",
     "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
     "static/media/picanto5.png": "/YandelCars/static/media/picanto5.6993cb3394901307a35f.png",
     "static/media/ford.png": "/YandelCars/static/media/ford.470b31a3dcd869425a85.png",
@@ -57,7 +57,6 @@
     "static/media/yaris6.png": "/YandelCars/static/media/yaris6.4f399f9aedb4e6e5cdd0.png",
     "static/media/land6.png": "/YandelCars/static/media/land6.8292fe45f54e0c861e7b.png",
     "static/media/portada1.png": "/YandelCars/static/media/portada1.b8ba54feb995fc72ae21.png",
-    "static/media/logoYandel.png": "/YandelCars/static/media/logoYandel.fb98bab6d6f406292473.png",
     "static/media/picanto6.jpeg": "/YandelCars/static/media/picanto6.1925fd75fbfa34e670fa.jpeg",
     "static/media/picanto10.jpeg": "/YandelCars/static/media/picanto10.2f4c9bd850b9c1ad04e4.jpeg",
     "static/media/picanto11.jpeg": "/YandelCars/static/media/picanto11.b320ddea10f3580b3323.jpeg",
@@ -69,14 +68,16 @@
     "static/media/picanto9.jpeg": "/YandelCars/static/media/picanto9.b52e94b53e33fef58ef7.jpeg",
     "static/media/kiaPicantoPortada.png": "/YandelCars/static/media/kiaPicantoPortada.03c5a4292b79028f3918.png",
     "static/media/logoCertified.png": "/YandelCars/static/media/logoCertified.0e3d2678c5e7041a2c07.png",
+    "static/media/logoTransparente.png": "/YandelCars/static/media/logoTransparente.69ebf0b5502480be2445.png",
+    "static/media/logoNegro.png": "/YandelCars/static/media/logoNegro.526fcf4de823178b091b.png",
     "static/media/waves5.jpg": "/YandelCars/static/media/waves5.8dcea10a90a950216d65.jpg",
     "index.html": "/YandelCars/index.html",
-    "main.ecee059b.css.map": "/YandelCars/static/css/main.ecee059b.css.map",
-    "main.8fc03cbb.js.map": "/YandelCars/static/js/main.8fc03cbb.js.map",
+    "main.5c8c7626.css.map": "/YandelCars/static/css/main.5c8c7626.css.map",
+    "main.59dca759.js.map": "/YandelCars/static/js/main.59dca759.js.map",
     "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecee059b.css",
-    "static/js/main.8fc03cbb.js"
+    "static/css/main.5c8c7626.css",
+    "static/js/main.59dca759.js"
   ]
 }
