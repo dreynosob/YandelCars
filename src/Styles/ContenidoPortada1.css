@@ -72,7 +72,7 @@ h3 {
   }
   .contenidoPortada1Titulo {
     font-family: "Lobster", cursive;
-    font-size: 48px;
+    font-size: 38px;
     font-style: italic;
     color: rgba(255, 255, 255, 0.925);
     height: auto;
@@ -81,8 +81,7 @@ h3 {
     margin-top: 0;
     color: #ffde00;
     font-family: "Alfa Slab One", cursive;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
-    text-align: center;
   }
 }

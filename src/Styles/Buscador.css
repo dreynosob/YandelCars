@@ -19,12 +19,13 @@ input:focus {
 
 @media only screen and (max-width: 767px) {
   input {
-    width: 50vw;
+    width: 80%;
   }
   .contenedor {
     margin: 5px 5px 5px 0;
   }
 }
+
 @media only screen and (max-width: 900px) {
   input::placeholder {
     color: rgb(179, 175, 175);
@@ -38,5 +39,8 @@ input:focus {
   input::placeholder {
     color: rgb(179, 175, 175);
     font-weight: lighter;
+  }
+  input {
+    width: 80%;
   }
 }
