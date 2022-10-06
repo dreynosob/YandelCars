@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YandelCars/static/css/main.5c8c7626.css",
-    "main.js": "/YandelCars/static/js/main.59dca759.js",
+    "main.css": "/YandelCars/static/css/main.65ccc134.css",
+    "main.js": "/YandelCars/static/js/main.a9d55942.js",
     "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
     "static/media/picanto5.png": "/YandelCars/static/media/picanto5.6993cb3394901307a35f.png",
     "static/media/ford.png": "/YandelCars/static/media/ford.470b31a3dcd869425a85.png",
@@ -72,12 +72,12 @@
     "static/media/logoNegro.png": "/YandelCars/static/media/logoNegro.526fcf4de823178b091b.png",
     "static/media/waves5.jpg": "/YandelCars/static/media/waves5.8dcea10a90a950216d65.jpg",
     "index.html": "/YandelCars/index.html",
-    "main.5c8c7626.css.map": "/YandelCars/static/css/main.5c8c7626.css.map",
-    "main.59dca759.js.map": "/YandelCars/static/js/main.59dca759.js.map",
+    "main.65ccc134.css.map": "/YandelCars/static/css/main.65ccc134.css.map",
+    "main.a9d55942.js.map": "/YandelCars/static/js/main.a9d55942.js.map",
     "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c8c7626.css",
-    "static/js/main.59dca759.js"
+    "static/css/main.65ccc134.css",
+    "static/js/main.a9d55942.js"
   ]
 }
