@@ -27,23 +27,16 @@
   font-size: 28px;
 }
 @media only screen and (max-width: 900px) {
-  .logoName img {
-    width: 130px;
-    height: 65px;
+  .logoResponsive {
+    width: 230px;
+    height: 75px;
+    text-align: center;
   }
   .borderToggle {
     border: solid 2px #000;
     background-color: #fff;
   }
-  .colorFondo {
-    background-color: #fff;
-  }
-  .logoNameResponsive {
-    color: #000;
-    font-family: "Alfa Slab One", cursive;
-    font-weight: bold;
-    font-style: italic;
-  }
+
   .texto {
     color: #000;
     font-family: "Alfa Slab One", cursive;
@@ -53,19 +46,13 @@
 
 @media only screen and (max-width: 900px) {
   .colorFondo {
-    background-color: #fff;
+    background-color: #ffde00;
   }
 
-  .logoNameResponsive {
-    color: #000;
-    font-family: "Alfa Slab One", cursive;
-    font-weight: bold;
-    font-style: italic;
-  }
   .texto {
-    color: #000;
+    color: #fff;
     font-family: "Alfa Slab One", cursive;
-    font-weight: 800;
+    font-weight: 500;
   }
 }
 
@@ -77,6 +64,25 @@
     color: #ffde00;
     font-family: "Alfa Slab One", cursive;
     font-weight: bold;
-    font-style: italic;
+  }
+
+  .logoResponsive {
+    width: 230px;
+    height: 75px;
+    text-align: center;
+  }
+  .borderToggle {
+    border: solid 2px #000;
+    background-color: #fff;
+  }
+}
+@media only screen and (max-width: 1198px) {
+  .colorFondo {
+    background-color: #ffde00;
+  }
+  .texto {
+    color: #fff;
+    font-family: "Alfa Slab One", cursive;
+    font-weight: 500;
   }
 }

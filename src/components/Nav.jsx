@@ -1,19 +1,19 @@
 import React, { useState } from "react";
+//Boostraps
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 //Router
 import { NavLink } from "react-router-dom";
-import Form from "react-bootstrap/Form";
-import InputGroup from "react-bootstrap/InputGroup";
 import Nav from "react-bootstrap/Nav";
-
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Styles/Menu.css";
+//Components
 import Buscador from "../components/Buscador";
-import logoYandel from "../imgs/logoYandel.png";
+//Logos
 import logoCertified from "../imgs/logoCertified.png";
+import logoNegro from "../imgs/logoNegro.png";
+import logoTransparente from "../imgs/logoTransparente.png";
 
 const Naves = () => {
   return (
@@ -27,7 +27,7 @@ const Naves = () => {
           <Container fluid>
             <Navbar.Brand className="texto logoName">
               <NavLink to="/YandelCars" className="texto">
-                <img src={logoCertified} />
+                <img src={logoNegro} />
               </NavLink>
             </Navbar.Brand>
             <Navbar.Toggle
@@ -44,7 +44,7 @@ const Naves = () => {
                   className=" logoNameResponsive"
                   id={`offcanvasNavbarLabel-expand-${expand}`}
                 >
-                  AutosCertifica2
+                  <img src={logoTransparente} className="logoResponsive" />
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="colorFondo">
