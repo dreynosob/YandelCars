@@ -56,7 +56,7 @@ const Naves = () => {
                       activeClassName="active"
                       className="colorContentHamburguer texto"
                     >
-                      Coches
+                      Vehículos
                     </NavLink>
                   </Nav.Link>
                   <Nav.Link>

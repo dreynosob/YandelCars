@@ -157,7 +157,7 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>
@@ -193,7 +193,7 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>
@@ -237,7 +237,7 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>
@@ -281,7 +281,7 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>
@@ -360,7 +360,7 @@ const Coches = () => {
               </p>
               <p>Financiamiento disponible sin importar tu credito.</p>
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>
@@ -433,7 +433,7 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>
@@ -482,7 +482,7 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>
@@ -535,7 +535,7 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>
@@ -588,7 +588,7 @@ const Coches = () => {
               <p>Financiamiento disponible sin importar tu credito.</p>
 
               <NavLink to="/contacto">
-                <Button variant="primary" className="colorFondos colorBtn">
+                <Button variant="danger" className="colorBtnPortada">
                   Contactar
                 </Button>
               </NavLink>

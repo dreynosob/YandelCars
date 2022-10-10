@@ -1,0 +1,79 @@
+.contenedorVehiculo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem 0;
+}
+
+.tituloCardsVehiculos {
+  font-family: Lato;
+  color: #1773cf;
+  text-align: left;
+}
+.vehiculosTexto {
+  color: rgb(109, 116, 122);
+  text-align: left;
+}
+.promoVehiculos {
+  background-color: rgb(233, 0, 0);
+  color: #ffde00;
+  text-align: left;
+  font-weight: bold;
+}
+
+.parpadeoVehiculo {
+  animation-name: parpadeo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.botonVehiculo {
+  background-color: #1773cf;
+}
+.botonVehiculo:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease-in-out 0s;
+}

@@ -33,7 +33,10 @@ const Top = () => {
           <a href="" className="iconosHover">
             <BsFacebook color="#3b5998" />
           </a>
-          <a href="https://www.instagram.com/yandelautos/?hl=es" target="blank">
+          <a
+            href="https://www.instagram.com/autoscertifica2/?hl=es"
+            target="blank"
+          >
             <BsInstagram color="#E1306C" />
           </a>
           <a href="">

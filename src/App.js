@@ -22,6 +22,8 @@ import Contacto from "./components/Contacto";
 import Naves from "./components/Nav";
 import NotFound from "./components/NotFound";
 import About from "./components/About";
+import Promo from "./components/Promo";
+import Vehiculos from "./components/Vehiculos";
 function App() {
   return (
     <div className="App">
@@ -36,8 +38,12 @@ function App() {
 
                 <Naves />
                 <ContenidoPortada1 />
+
                 <ContenidoPortada2 />
+                <Promo />
+
                 <PortadaListaCoches />
+
                 <Footer />
               </>
             }
@@ -50,7 +56,8 @@ function App() {
               <>
                 <Top />
                 <Naves />
-                <Coches />
+                <Vehiculos />
+
                 <Footer2 />
               </>
             }

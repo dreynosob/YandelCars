@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+.fondoPromo {
+  background-color: rgb(223, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin-bottom: 2em;
+  margin-top: 0;
+}
+.fondoPromo h2 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 38px;
+  font-weight: bold;
+  color: #ffde00;
+}
+.fondoPromo .textoPromo {
+  color: #fff;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+.fondoPromo .textoPromo2 {
+  color: #fff;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*Parpadeo*/
+.h2Promo {
+  font-size: 18px;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  display: inline;
+}
+.parpadeoPromo {
+  animation-name: parpadeo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

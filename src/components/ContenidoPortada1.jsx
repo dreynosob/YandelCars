@@ -7,7 +7,7 @@ const ContenidoPortada1 = () => {
     <div className="contenedorPortada1">
       <h3 className="contenidoPortada1Titulo">Autoscertificado2</h3>
       <h3 className="contenidoPortada1Titulo2">
-        LAS MEJORES OFERTAS DE AUTOS{" "}
+        LAS MEJORES OFERTAS DE VEHÍCULOS{" "}
         <span className="spanPortadaTitulo2"> ¡EN REPÚBLICA DOMINICANA!</span>
       </h3>
       {/*<p className="colorTextoportada1">

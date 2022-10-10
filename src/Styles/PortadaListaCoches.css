@@ -76,23 +76,38 @@
   }
 }
 */
+
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 .colorText {
   color: #1b1a1ae7;
   font-weight: bold;
 }
-.colorBtn {
-  background-color: #0551a8;
+.colorBtnPortada {
+  background-color: rgb(223, 0, 0);
   color: #fff;
   font-weight: bold;
 }
-.colorBtn:hover {
+.colorBtnPortada:hover {
   transform: translateY(-4px);
   transition: all 0.3s ease-in-out 0s;
 }
 .fondo {
   box-shadow: rgba(99, 99, 99, 0.2) 8px 2px 8px 0px;
   padding: 30px;
+}
+.fondoAnuncio {
+  display: inline;
+}
+/*Oferta*/
+
+/*Parpadeo oferta*/
+.text {
+  font-size: 16px;
+  font-family: "Alfa Slab One", cursive;
+  color: #ffde00;
+  text-transform: uppercase;
+  background-color: red;
+  display: inline;
 }
 
 /*Medium devices*/
@@ -111,7 +126,7 @@
     transition: all 0.3s ease-in-out 0s;
   }
   .card-title {
-    color: #0551a8;
+    color: rgb(223, 0, 0);
     font-family: "Alfa Slab One", cursive;
   }
   .colorText {
@@ -132,6 +147,7 @@
     width: 100%;
   }
 }
+
 /* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
 @media only screen and (max-width: 900px) {
   .card-img-top {

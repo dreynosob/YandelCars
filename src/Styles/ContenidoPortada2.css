@@ -3,7 +3,7 @@
   float: left;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 2em;
+
   width: 700px;
   height: 348px;
   background: url("../imgs//waves5.jpg");
@@ -13,7 +13,7 @@
 
 .flotarDerecha {
   float: right;
-  margin-top: 15em;
+  margin-top: 10em;
   line-height: 1.5;
 }
 .flotarDerecha h3 {
