@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/YandelCars/static/css/main.18be3560.css",
+    "main.css": "/YandelCars/static/css/main.eee6c43f.css",
     "main.js": "/YandelCars/static/js/main.5792ca85.js",
     "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
     "static/media/picanto5.png": "/YandelCars/static/media/picanto5.6993cb3394901307a35f.png",
@@ -77,12 +77,12 @@
     "static/media/logoBlanco.png": "/YandelCars/static/media/logoBlanco.8b40ad5d922cf8a04d26.png",
     "static/media/waves5.jpg": "/YandelCars/static/media/waves5.8dcea10a90a950216d65.jpg",
     "index.html": "/YandelCars/index.html",
-    "main.18be3560.css.map": "/YandelCars/static/css/main.18be3560.css.map",
+    "main.eee6c43f.css.map": "/YandelCars/static/css/main.eee6c43f.css.map",
     "main.5792ca85.js.map": "/YandelCars/static/js/main.5792ca85.js.map",
     "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18be3560.css",
+    "static/css/main.eee6c43f.css",
     "static/js/main.5792ca85.js"
   ]
 }
