@@ -7,20 +7,31 @@
   gap: 2rem 0;
 }
 
-.tituloCardsVehiculos {
-  font-family: Lato;
-  color: #1773cf;
-  text-align: left;
+.encabezadoVehiculos img {
+  float: left;
 }
-.vehiculosTexto {
-  color: rgb(109, 116, 122);
-  text-align: left;
+.encabezadoVehiculos h2 {
+  float: right;
+  margin-right: 0;
+  background-color: black;
+  letter-spacing: 5px;
+  letter-spacing: 2px;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 38px;
+  font-weight: bold;
+  color: #ffde00;
+
+  padding: 10px;
 }
+
+/*Promoción*/
 .promoVehiculos {
   background-color: rgb(233, 0, 0);
   color: #ffde00;
   text-align: left;
   font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 3px;
 }
 
 .parpadeoVehiculo {
@@ -70,10 +81,78 @@
     opacity: 1;
   }
 }
+
+/*Card*/
 .botonVehiculo {
-  background-color: #1773cf;
+  background-color: black;
 }
 .botonVehiculo:hover {
   transform: translateY(-4px);
   transition: all 0.3s ease-in-out 0s;
+  background-color: #ffde00;
+}
+.tituloCardsVehiculos {
+  font-family: Lato;
+  color: black;
+  text-align: left;
+}
+.vehiculosTexto {
+  color: rgb(109, 116, 122);
+  text-align: left;
+}
+
+.bordeCard {
+  border: 2px solid black;
+  height: 400px;
+}
+
+.bordeGasolina {
+  border-radius: 6px;
+  border: 1px solid rgb(109, 116, 122);
+  width: fit-content;
+
+  padding: 1px;
+}
+.t300-px-wide {
+  width: 500px;
+  object-fit: fill;
+  height: 300px;
+}
+
+/*Responsive*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 900px) {
+  h2 {
+    font-family: "Alfa Slab One", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffde00;
+  }
+  .encabezadoVehiculos h2 {
+    float: right;
+    margin-right: 0;
+    background-color: black;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .contenedorVehiculo .vehiculosTexto {
+    margin: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 1201px) {
+  .encabezadoVehiculos h2 {
+    letter-spacing: 2px;
+    font-family: "Alfa Slab One", cursive;
+    font-size: 38px;
+    font-weight: bold;
+    color: #ffde00;
+    padding: 10px;
+    float: right;
+    background-color: black;
+    letter-spacing: 5px;
+  }
+
+  .encabezadoVehiculos img {
+    float: left;
+  }
 }

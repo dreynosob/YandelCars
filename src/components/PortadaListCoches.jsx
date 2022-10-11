@@ -26,7 +26,7 @@ const PortadaListaCoches = () => {
           </div>
           <div className="card-footer">
             <NavLink to="/coches">
-              <Button variant="danger" className="colorBtnPortada">
+              <Button variant="dark" className="colorBtnPortada">
                 Ver vehículo
               </Button>
             </NavLink>
@@ -49,7 +49,7 @@ const PortadaListaCoches = () => {
           </div>
           <div className="card-footer">
             <NavLink to="/coches">
-              <Button variant="danger" className="colorBtnPortada">
+              <Button variant="dark" className="colorBtnPortada">
                 Ver vehículo
               </Button>
             </NavLink>
@@ -72,7 +72,7 @@ const PortadaListaCoches = () => {
           </div>
           <div className="card-footer">
             <NavLink to="/coches">
-              <Button variant="danger" className="colorBtnPortada">
+              <Button variant="dark" className="colorBtnPortada">
                 Ver vehículo
               </Button>
             </NavLink>
