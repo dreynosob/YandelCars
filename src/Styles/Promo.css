@@ -21,6 +21,7 @@
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 2px;
+  display: flex;
 }
 .fondoPromo .textoPromo2 {
   color: #fff;
@@ -28,6 +29,7 @@
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2px;
+  display: flex;
 }
 
 /*Parpadeo*/
@@ -82,5 +84,33 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .fondoPromo h2 {
+    font-size: 34px;
+    font-weight: bold;
+  }
+  .fondoPromo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fondoPromo .textoPromo {
+    color: #fff;
+    font-family: "Alfa Slab One", cursive;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
+  }
+  .fondoPromo .textoPromo2 {
+    color: #fff;
+    font-family: "Alfa Slab One", cursive;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
   }
 }
