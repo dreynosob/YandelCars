@@ -5,7 +5,7 @@ import "../Styles/ContenidoPortada1.css";
 const ContenidoPortada1 = () => {
   return (
     <div className="contenedorPortada1">
-      <h3 className="contenidoPortada1Titulo">Autoscertificado2</h3>
+      <h3 className="contenidoPortada1Titulo">Autoscertifica2</h3>
       <h3 className="contenidoPortada1Titulo2">
         LAS MEJORES OFERTAS DE VEHÍCULOS{" "}
         <span className="spanPortadaTitulo2"> ¡EN REPÚBLICA DOMINICANA!</span>
