@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YandelCars/static/css/main.eee6c43f.css",
-    "main.js": "/YandelCars/static/js/main.7cdb8de8.js",
+    "main.css": "/YandelCars/static/css/main.44bcbf37.css",
+    "main.js": "/YandelCars/static/js/main.1ac0204d.js",
     "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
     "static/media/picanto5.png": "/YandelCars/static/media/picanto5.6993cb3394901307a35f.png",
     "static/media/ford.png": "/YandelCars/static/media/ford.470b31a3dcd869425a85.png",
@@ -73,16 +73,16 @@
     "static/media/logoCertified.png": "/YandelCars/static/media/logoCertified.0e3d2678c5e7041a2c07.png",
     "static/media/k52016.jpg": "/YandelCars/static/media/k52016.498f2421b4e9cdfd0be1.jpg",
     "static/media/logoTransparente.png": "/YandelCars/static/media/logoTransparente.69ebf0b5502480be2445.png",
-    "static/media/logoNegro.png": "/YandelCars/static/media/logoNegro.526fcf4de823178b091b.png",
     "static/media/logoBlanco.png": "/YandelCars/static/media/logoBlanco.8b40ad5d922cf8a04d26.png",
     "static/media/waves5.jpg": "/YandelCars/static/media/waves5.8dcea10a90a950216d65.jpg",
+    "static/media/fondoPortada1.png": "/YandelCars/static/media/fondoPortada1.b1eaa92d4b24e7d31e6f.png",
     "index.html": "/YandelCars/index.html",
-    "main.eee6c43f.css.map": "/YandelCars/static/css/main.eee6c43f.css.map",
-    "main.7cdb8de8.js.map": "/YandelCars/static/js/main.7cdb8de8.js.map",
+    "main.44bcbf37.css.map": "/YandelCars/static/css/main.44bcbf37.css.map",
+    "main.1ac0204d.js.map": "/YandelCars/static/js/main.1ac0204d.js.map",
     "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eee6c43f.css",
-    "static/js/main.7cdb8de8.js"
+    "static/css/main.44bcbf37.css",
+    "static/js/main.1ac0204d.js"
   ]
 }
