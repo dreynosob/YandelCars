@@ -98,6 +98,10 @@
 .fondoAnuncio {
   display: inline;
 }
+.card-title {
+  color: #006ddf;
+  font-family: "Alfa Slab One", cursive;
+}
 /*Oferta*/
 
 /*Parpadeo oferta*/
