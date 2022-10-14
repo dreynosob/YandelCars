@@ -12,7 +12,7 @@ import "../Styles/Menu.css";
 import Buscador from "../components/Buscador";
 //Logos
 import logoCertified from "../imgs/logoCertified.png";
-import logoNegro from "../imgs/logoNegro.png";
+
 import logoTransparente from "../imgs/logoTransparente.png";
 
 const Naves = () => {
@@ -27,7 +27,7 @@ const Naves = () => {
           <Container fluid>
             <Navbar.Brand className="texto logoName">
               <NavLink to="/YandelCars" className="texto">
-                <img src={logoNegro} />
+                <img src={logoTransparente} />
               </NavLink>
             </Navbar.Brand>
             <Navbar.Toggle

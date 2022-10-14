@@ -53,12 +53,12 @@ const Vehiculos = () => {
               <Card.Text className="vehiculosTexto bordeGasolina">
                 Gasolina{" "}
               </Card.Text>
-
-              <Card.Text className="promoVehiculos parpadeoVehiculo">
+              {/*<Card.Text className="promoVehiculos parpadeoVehiculo">
                 MONTADO POR RD$150,000{" "}
-              </Card.Text>
+              </Card.Text>*/}
+
               <NavLink to="/contacto">
-                <Button variant="dark" className="botonVehiculo">
+                <Button variant="primary" className="botonVehiculo">
                   CONTACTAR
                 </Button>
               </NavLink>
@@ -100,11 +100,11 @@ const Vehiculos = () => {
                 Gasolina{" "}
               </Card.Text>
 
-              <Card.Text className="promoVehiculos parpadeoVehiculo">
+              {/*<Card.Text className="promoVehiculos parpadeoVehiculo">
                 MONTADO POR RD$150,000{" "}
-              </Card.Text>
+              </Card.Text>*/}
               <NavLink to="/contacto">
-                <Button variant="dark" className="botonVehiculo">
+                <Button variant="primary" className="botonVehiculo">
                   CONTACTAR
                 </Button>
               </NavLink>
@@ -145,11 +145,11 @@ const Vehiculos = () => {
                 Gasolina{" "}
               </Card.Text>
 
-              <Card.Text className="promoVehiculos parpadeoVehiculo">
+              {/*<Card.Text className="promoVehiculos parpadeoVehiculo">
                 MONTADO POR RD$150,000{" "}
-              </Card.Text>
+              </Card.Text>*/}
               <NavLink to="/contacto">
-                <Button variant="dark" className="botonVehiculo">
+                <Button variant="primary" className="botonVehiculo">
                   CONTACTAR
                 </Button>
               </NavLink>
@@ -190,11 +190,55 @@ const Vehiculos = () => {
                 Gasolina{" "}
               </Card.Text>
 
-              <Card.Text className="promoVehiculos parpadeoVehiculo">
+              {/*<Card.Text className="promoVehiculos parpadeoVehiculo">
                 MONTADO POR RD$150,000{" "}
-              </Card.Text>
+              </Card.Text>*/}
               <NavLink to="/contacto">
-                <Button variant="dark" className="botonVehiculo">
+                <Button variant="primary" className="botonVehiculo">
+                  CONTACTAR
+                </Button>
+              </NavLink>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem" }} className="bordeCard">
+            <Carousel
+              className="container-fluid contenedorVehiculo t300-px-wide"
+              indicators={false}
+              controls={false}
+            >
+              <Carousel.Item className="itemTam">
+                <img className="d-flex w-50" src={picanto5SinFondo} />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-flex w-50"
+                  src={picanto7SinFondo}
+                  alt="Kia Picanto"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-flex w-50"
+                  src={picantoSideView}
+                  alt="Kia Picanto"
+                />
+              </Carousel.Item>
+            </Carousel>
+            <Card.Body>
+              <Card.Title className="tituloCardsVehiculos">
+                Kia Picanto
+              </Card.Title>
+              <Card.Text className="vehiculosTexto">
+                Seminuevo - 5 puertas
+              </Card.Text>
+              <Card.Text className="vehiculosTexto bordeGasolina">
+                Gasolina{" "}
+              </Card.Text>
+              {/*<Card.Text className="promoVehiculos parpadeoVehiculo">
+                MONTADO POR RD$150,000{" "}
+              </Card.Text>*/}
+              <NavLink to="/contacto">
+                <Button variant="primary" className="botonVehiculo">
                   CONTACTAR
                 </Button>
               </NavLink>
@@ -235,12 +279,57 @@ const Vehiculos = () => {
                 Gasolina{" "}
               </Card.Text>
 
-              <Card.Text className="promoVehiculos parpadeoVehiculo">
+              {/*<Card.Text className="promoVehiculos parpadeoVehiculo">
                 MONTADO POR RD$150,000{" "}
-              </Card.Text>
+              </Card.Text>*/}
 
               <NavLink to="/contacto">
-                <Button variant="dark" className="botonVehiculo">
+                <Button variant="primary" className="botonVehiculo">
+                  CONTACTAR
+                </Button>
+              </NavLink>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem" }} className="bordeCard">
+            <Carousel
+              className="container-fluid contenedorVehiculo t300-px-wide"
+              indicators={false}
+              controls={false}
+            >
+              <Carousel.Item className="itemTam">
+                <img className="d-flex w-50" src={picanto5SinFondo} />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-flex w-50"
+                  src={picanto7SinFondo}
+                  alt="Kia Picanto"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-flex w-50"
+                  src={picantoSideView}
+                  alt="Kia Picanto"
+                />
+              </Carousel.Item>
+            </Carousel>
+            <Card.Body>
+              <Card.Title className="tituloCardsVehiculos">
+                Kia Picanto
+              </Card.Title>
+              <Card.Text className="vehiculosTexto">
+                Seminuevo - 5 puertas
+              </Card.Text>
+              <Card.Text className="vehiculosTexto bordeGasolina">
+                Gasolina{" "}
+              </Card.Text>
+              {/*<Card.Text className="promoVehiculos parpadeoVehiculo">
+                MONTADO POR RD$150,000{" "}
+              </Card.Text>*/}
+
+              <NavLink to="/contacto">
+                <Button variant="primary" className="botonVehiculo">
                   CONTACTAR
                 </Button>
               </NavLink>
@@ -281,104 +370,11 @@ const Vehiculos = () => {
                 Gasolina{" "}
               </Card.Text>
 
-              <Card.Text className="promoVehiculos parpadeoVehiculo">
+              {/*<Card.Text className="promoVehiculos parpadeoVehiculo">
                 MONTADO POR RD$150,000{" "}
-              </Card.Text>
-
+              </Card.Text>*/}
               <NavLink to="/contacto">
-                <Button variant="dark" className="botonVehiculo">
-                  CONTACTAR
-                </Button>
-              </NavLink>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "18rem" }} className="bordeCard">
-            <Carousel
-              className="container-fluid contenedorVehiculo t300-px-wide"
-              indicators={false}
-              controls={false}
-            >
-              <Carousel.Item className="itemTam">
-                <img className="d-flex w-50" src={picanto5SinFondo} />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-flex w-50"
-                  src={picanto7SinFondo}
-                  alt="Kia Picanto"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-flex w-50"
-                  src={picantoSideView}
-                  alt="Kia Picanto"
-                />
-              </Carousel.Item>
-            </Carousel>
-            <Card.Body>
-              <Card.Title className="tituloCardsVehiculos">
-                Kia Picanto
-              </Card.Title>
-              <Card.Text className="vehiculosTexto">
-                Seminuevo - 5 puertas
-              </Card.Text>
-              <Card.Text className="vehiculosTexto bordeGasolina">
-                Gasolina{" "}
-              </Card.Text>
-
-              <Card.Text className="promoVehiculos parpadeoVehiculo">
-                MONTADO POR RD$150,000{" "}
-              </Card.Text>
-
-              <NavLink to="/contacto">
-                <Button variant="dark" className="botonVehiculo">
-                  CONTACTAR
-                </Button>
-              </NavLink>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "18rem" }} className="bordeCard">
-            <Carousel
-              className="container-fluid contenedorVehiculo t300-px-wide"
-              indicators={false}
-              controls={false}
-            >
-              <Carousel.Item className="itemTam">
-                <img className="d-flex w-50" src={picanto5SinFondo} />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-flex w-50"
-                  src={picanto7SinFondo}
-                  alt="Kia Picanto"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-flex w-50"
-                  src={picantoSideView}
-                  alt="Kia Picanto"
-                />
-              </Carousel.Item>
-            </Carousel>
-            <Card.Body>
-              <Card.Title className="tituloCardsVehiculos">
-                Kia Picanto
-              </Card.Title>
-              <Card.Text className="vehiculosTexto">
-                Seminuevo - 5 puertas
-              </Card.Text>
-              <Card.Text className="vehiculosTexto bordeGasolina">
-                Gasolina{" "}
-              </Card.Text>
-
-              <Card.Text className="promoVehiculos parpadeoVehiculo">
-                MONTADO POR RD$150,000{" "}
-              </Card.Text>
-
-              <NavLink to="/contacto">
-                <Button variant="dark" className="botonVehiculo">
+                <Button variant="primary" className="botonVehiculo">
                   CONTACTAR
                 </Button>
               </NavLink>

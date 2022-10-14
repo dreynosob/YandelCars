@@ -1,6 +1,8 @@
 import React, { memo } from "react";
 import { FaMapMarkerAlt, FaMailBulk, FaPhoneAlt } from "react-icons/fa";
 import "../Styles/Footer2.css";
+import logoTransparente from "../imgs/logoTransparente.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -9,37 +11,9 @@ const Footer = () => {
         <div className="container text-center text-md-left">
           <div className="row">
             <div className="col-md-3 mx-auto">
-              <h5 className="font-weight-bold text-uppercase mt-3 mb-4"></h5>
-
-              <ul className="list-unstyled listaGeneralInfo">
-                <li>
-                  <a href="#!" className="tituloListas logoName">
-                    Autocertifica2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    COCHES
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#!" className="tituloListas">
-                    TÉRMINOS Y CONDICIONES
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#!" className="tituloListas">
-                    SERVICIOS
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="tituloListas">
-                    CONTACTO
-                  </a>
-                </li>
-              </ul>
+              <NavLink to="/YandelCars">
+                <img src={logoTransparente} className="imgFooter" />
+              </NavLink>
             </div>
 
             <div className="col-md-3 mx-auto">
@@ -90,11 +64,6 @@ const Footer = () => {
               </h5>
 
               <ul className="list-unstyled listaAyuda ">
-                <li>
-                  <a href="#!" className="logoName">
-                    Autoscertifica2
-                  </a>
-                </li>
                 <li>
                   <FaMapMarkerAlt color="white" />
                   <a href="#!">

@@ -17,31 +17,9 @@ const Footer = () => {
               <ul className="list-unstyled listaGeneralInfo">
                 <NavLink to="/YandelCars">
                   <li>
-                    <a className="tituloListas logoName">Autoscertifica2</a>
-                  </li>
-                </NavLink>
-
-                <NavLink to="/coches">
-                  <li>
-                    <a className="tituloListas">COCHES</a>
-                  </li>
-                </NavLink>
-
-                <NavLink to="/terminos">
-                  <li>
-                    <a className="tituloListas">TÉRMINOS Y CONDICIONES</a>
-                  </li>
-                </NavLink>
-
-                <NavLink to="/servicios">
-                  <li>
-                    <a className="tituloListas">SERVICIOS</a>
-                  </li>
-                </NavLink>
-
-                <NavLink to="/contacto">
-                  <li>
-                    <a className="tituloListas">CONTACTO</a>
+                    <a className="tituloListas logoName">
+                      <img src={logoTransparente} />
+                    </a>
                   </li>
                 </NavLink>
               </ul>

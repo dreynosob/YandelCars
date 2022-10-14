@@ -44,7 +44,7 @@ function App() {
 
                 <PortadaListaCoches />
 
-                <Footer />
+                <Footer2 />
               </>
             }
           />

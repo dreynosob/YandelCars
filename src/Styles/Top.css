@@ -1,7 +1,7 @@
 .containerBarraInfo {
-  color: white;
+  color: #fff;
   padding: 7px 0px;
-  background-color: #131212e7;
+  background-color: #006ddf;
   font-size: 14px;
   display: flex;
   flex-wrap: wrap;
@@ -11,7 +11,7 @@
   margin-left: 35px;
   margin-right: 20px;
   white-space: nowrap;
-  color: rgba(255, 255, 255, 0.776);
+  color: #fff;
   font-weight: 600;
 }
 .containerBarraInfo .social {

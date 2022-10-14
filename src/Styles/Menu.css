@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 .texto {
-  color: #ffde00;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 900px) {
   .colorFondo {
-    background-color: #ffde00;
+    background-color: #006ddf;
   }
 
   .texto {
@@ -78,7 +78,7 @@
 }
 @media only screen and (max-width: 1198px) {
   .colorFondo {
-    background-color: #ffde00;
+    background-color: #006ddf;
   }
   .texto {
     color: #fff;

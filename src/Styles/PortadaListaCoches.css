@@ -83,7 +83,7 @@
   font-weight: bold;
 }
 .colorBtnPortada {
-  background-color: black;
+  background-color: #006ddf;
   color: #fff;
   font-weight: bold;
 }
@@ -106,7 +106,7 @@
   font-family: "Alfa Slab One", cursive;
   color: #ffde00;
   text-transform: uppercase;
-  background-color: black;
+  background-color: rgb(233, 0, 0);
   display: inline;
 }
 
@@ -126,12 +126,16 @@
     transition: all 0.3s ease-in-out 0s;
   }
   .card-title {
-    color: black;
+    color: #006ddf;
     font-family: "Alfa Slab One", cursive;
   }
   .colorText {
     color: #0551a8;
     font-size: 14px;
+  }
+  .card:hover {
+    transform: translateY(-8px);
+    transition: all 0.3s ease-in-out 0s;
   }
 }
 

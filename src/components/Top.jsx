@@ -31,16 +31,16 @@ const Top = () => {
         </span>
         <span className="social">
           <a href="" className="iconosHover">
-            <BsFacebook color="#3b5998" />
+            <BsFacebook color="#fff" />
           </a>
           <a
             href="https://www.instagram.com/autoscertifica2/?hl=es"
             target="blank"
           >
-            <BsInstagram color="#E1306C" />
+            <BsInstagram color="#fff" />
           </a>
           <a href="">
-            <BsTwitter color="#00acee" />
+            <BsTwitter color="#fff" />
           </a>
         </span>
       </div>

@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&display=swap");
 .flotarIzquierda {
-  float: left;
+  float: right;
   margin-left: 0;
   margin-right: 0;
 
   width: 700px;
   height: 348px;
-  background: url("../imgs//waves5.jpg");
+  background: url("../imgs//fondoPortada1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -15,6 +15,7 @@
   float: right;
   margin-top: 10em;
   line-height: 1.5;
+  margin-left: 8px;
 }
 .flotarDerecha h3 {
   font-weight: bold;

@@ -13,13 +13,13 @@
 .encabezadoVehiculos h2 {
   float: right;
   margin-right: 0;
-  background-color: black;
+  background-color: #006ddf;
   letter-spacing: 5px;
   letter-spacing: 2px;
   font-family: "Alfa Slab One", cursive;
   font-size: 38px;
   font-weight: bold;
-  color: #ffde00;
+  color: #fff;
 
   padding: 10px;
 }
@@ -84,7 +84,7 @@
 
 /*Card*/
 .botonVehiculo {
-  background-color: black;
+  background-color: #006ddf;
 }
 .botonVehiculo:hover {
   transform: translateY(-4px);
@@ -93,7 +93,7 @@
 }
 .tituloCardsVehiculos {
   font-family: Lato;
-  color: black;
+  color: #006ddf;
   text-align: left;
 }
 .vehiculosTexto {
@@ -102,7 +102,7 @@
 }
 
 .bordeCard {
-  border: 2px solid black;
+  border: 2px solid #bdc1c6;
   height: 400px;
 }
 
@@ -125,12 +125,12 @@
     font-family: "Alfa Slab One", cursive;
     font-size: 20px;
     font-weight: bold;
-    color: #ffde00;
+    color: #fff;
   }
   .encabezadoVehiculos h2 {
     float: right;
     margin-right: 0;
-    background-color: black;
+    background-color: #006ddf;
     letter-spacing: 5px;
     text-align: center;
   }
@@ -145,11 +145,12 @@
     font-family: "Alfa Slab One", cursive;
     font-size: 38px;
     font-weight: bold;
-    color: #ffde00;
+    color: #fff;
     padding: 10px;
     float: right;
-    background-color: black;
+    background-color: #006ddf;
     letter-spacing: 5px;
+    margin-bottom: 1em;
   }
 
   .encabezadoVehiculos img {
