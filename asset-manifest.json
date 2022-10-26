@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YandelCars/static/css/main.781d2888.css",
-    "main.js": "/YandelCars/static/js/main.1ac0204d.js",
+    "main.js": "/YandelCars/static/js/main.de532a88.js",
     "static/js/787.93ff5130.chunk.js": "/YandelCars/static/js/787.93ff5130.chunk.js",
     "static/media/picanto5.png": "/YandelCars/static/media/picanto5.6993cb3394901307a35f.png",
     "static/media/ford.png": "/YandelCars/static/media/ford.470b31a3dcd869425a85.png",
@@ -78,11 +78,11 @@
     "static/media/fondoPortada1.png": "/YandelCars/static/media/fondoPortada1.b1eaa92d4b24e7d31e6f.png",
     "index.html": "/YandelCars/index.html",
     "main.781d2888.css.map": "/YandelCars/static/css/main.781d2888.css.map",
-    "main.1ac0204d.js.map": "/YandelCars/static/js/main.1ac0204d.js.map",
+    "main.de532a88.js.map": "/YandelCars/static/js/main.de532a88.js.map",
     "787.93ff5130.chunk.js.map": "/YandelCars/static/js/787.93ff5130.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.781d2888.css",
-    "static/js/main.1ac0204d.js"
+    "static/js/main.de532a88.js"
   ]
 }
