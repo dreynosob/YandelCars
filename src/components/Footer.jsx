@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { FaMapMarkerAlt, FaMailBulk, FaPhoneAlt } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "../Styles/Footer.css";
 
 import logoTransparente from "../imgs/logoTransparente.png";
@@ -31,18 +31,17 @@ const Footer = () => {
               </h5>
 
               <ul className="list-unstyled listaAyuda">
-                <li>
-                  <a href="#!">Estado del pedido</a>
-                </li>
-                <li>
-                  <a href="#!">Envíos y entregas</a>
-                </li>
-                <li>
-                  <a href="#!">Devoluciones</a>
-                </li>
-                <li>
-                  <a href="#!">Opciones de pago</a>
-                </li>
+                <NavLink to="/coches">
+                  <li>
+                    <a>Vehículos</a>
+                  </li>
+                </NavLink>
+
+                <NavLink to="/terminos">
+                  <li>
+                    <a>Términos y Condiciones</a>
+                  </li>
+                </NavLink>
               </ul>
             </div>
 
@@ -52,18 +51,16 @@ const Footer = () => {
               </h5>
 
               <ul className="list-unstyled listaAyuda">
-                <li>
-                  <a href="#!">Registrate</a>
-                </li>
-                <li>
-                  <a href="#!">Inicia sesión</a>
-                </li>
-                <li>
-                  <a href="#!">Novedades</a>
-                </li>
-                <li>
-                  <a href="#!">Sostenibilidad</a>
-                </li>
+                <NavLink to="/nosotros">
+                  <li>
+                    <a>Sobre Nosotros</a>
+                  </li>
+                </NavLink>
+                <NavLink to="/contacto">
+                  <li>
+                    <a>Contacto</a>
+                  </li>
+                </NavLink>
               </ul>
             </div>
 

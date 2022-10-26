@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 //Boostraps
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
+import { AiOutlineClose } from "react-icons/ai";
 //Router
 import { NavLink } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
@@ -16,12 +17,14 @@ import logoCertified from "../imgs/logoCertified.png";
 import logoTransparente from "../imgs/logoTransparente.png";
 
 const Naves = () => {
+  const [expanded, setExpanded] = useState(false);
   return (
     <>
       {["xl"].map((expand) => (
         <Navbar
           key={expand}
           expand={expand}
+          expanded={expanded}
           className="mb-3 menu container-fluid"
         >
           <Container fluid>
@@ -33,19 +36,34 @@ const Naves = () => {
             <Navbar.Toggle
               className="borderToggle "
               aria-controls={`offcanvasNavbar-expand-${expand}`}
+              onClick={() => setExpanded(expanded ? false : "expanded")}
             />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header className="colorFondo" closeButton>
+              <Offcanvas.Header className="colorFondo">
                 <Offcanvas.Title
                   className=" logoNameResponsive"
                   id={`offcanvasNavbarLabel-expand-${expand}`}
                 >
-                  <img src={logoTransparente} className="logoResponsive" />
+                  <img
+                    src={logoTransparente}
+                    className="logoResponsive"
+                    onClick={() => setExpanded(false)}
+                  />
                 </Offcanvas.Title>
+                <Nav.Link>
+                  <NavLink
+                    to="/YandelCars"
+                    activeClassName="active"
+                    className="colorContentHamburguer texto "
+                    onClick={() => setExpanded(false)}
+                  >
+                    <AiOutlineClose />
+                  </NavLink>
+                </Nav.Link>
               </Offcanvas.Header>
               <Offcanvas.Body className="colorFondo">
                 <Nav className="justify-content-end flex-grow-1 pe-3 texto">
@@ -55,6 +73,7 @@ const Naves = () => {
                       to="/coches"
                       activeClassName="active"
                       className="colorContentHamburguer texto"
+                      onClick={() => setExpanded(false)}
                     >
                       Vehículos
                     </NavLink>
@@ -64,8 +83,9 @@ const Naves = () => {
                       to="/terminos"
                       activeClassName="active"
                       className="colorContentHamburguer texto"
+                      onClick={() => setExpanded(false)}
                     >
-                      Términos y Condiciones
+                      Términos
                     </NavLink>
                   </Nav.Link>
                   <Nav.Link>
@@ -73,8 +93,9 @@ const Naves = () => {
                       to="/nosotros"
                       activeClassName="active"
                       className="colorContentHamburguer texto"
+                      onClick={() => setExpanded(false)}
                     >
-                      FAQs
+                      Nosotros
                     </NavLink>
                   </Nav.Link>
 
@@ -83,6 +104,7 @@ const Naves = () => {
                       to="/contacto"
                       activeClassName="active"
                       className="colorContentHamburguer texto"
+                      onClick={() => setExpanded(false)}
                     >
                       Contacto
                     </NavLink>
