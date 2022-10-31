@@ -64,7 +64,67 @@ const Coches = () => {
   }
   return (
     <>
-      {/*Hyundai Accent 2017*/}
+      {/*Amarok 2018*/}
+      <div className="blog-card alt">
+        <div className="meta">
+          <div
+            className="photo"
+            style={{
+              backgroundImage: `url(${AmarokfrontView})`,
+            }}
+          ></div>
+          <ul className="details">
+            <li className="tags">
+              <ul>
+                <li>
+                  {values.map((v, idx) => (
+                    <Button
+                      key={idx}
+                      className="me-2 mb-2"
+                      onClick={() => handleShow(v)}
+                    >
+                      Detalles
+                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                    </Button>
+                  ))}
+                  <Modal
+                    show={show}
+                    fullscreen={fullscreen}
+                    onHide={() => setShow(false)}
+                    animation={true}
+                  >
+                    <Modal.Header closeButton>
+                      <Modal.Title>Volkswagen Amarok 2018 </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                      <Amarok />
+                    </Modal.Body>
+                  </Modal>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div className="description">
+          <h1>VOLKSWAGEN Amarok Extremen</h1>
+          <h2>Diesel - 2018 - Seminuevo</h2>
+          <h4>$RD15000</h4>
+          <p>
+            Único dueño. Récord completo en la propia casa Volkswagen, 2020. Con
+            la mayor comidad y facilidad que te proporciona un 4x4. Interior en
+            piel, sensores de ayuda para el parking, cámara trasera, zenón y
+            led, y muchos más accesorios.
+          </p>
+          <p className="read-more">
+            <NavLink to="/contacto">
+              <Button variant="primary" className="hoverButton">
+                Contactar
+              </Button>
+            </NavLink>
+          </p>
+        </div>
+      </div>
+      {/*Hyundai Accent 2017}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -126,68 +186,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/*Amarok 2018*/}
-      <div className="blog-card alt">
-        <div className="meta">
-          <div
-            className="photo"
-            style={{
-              backgroundImage: `url(${AmarokfrontView})`,
-            }}
-          ></div>
-          <ul className="details">
-            <li className="tags">
-              <ul>
-                <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
-                    </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Volkswagen Amarok 2018 </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <Amarok />
-                    </Modal.Body>
-                  </Modal>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div className="description">
-          <h1>VOLKSWAGEN Amarok Extremen</h1>
-          <h2>Diesel - 2018 - Seminuevo</h2>
-          <h4>$RD15000</h4>
-          <p>
-            Único dueño. Récord completo en la propia casa Volkswagen, 2020. Con
-            la mayor comidad y facilidad que te proporciona un 4x4. Interior en
-            piel, sensores de ayuda para el parking, cámara trasera, zenón y
-            led, y muchos más accesorios.
-          </p>
-          <p className="read-more">
-            <NavLink to="/contacto">
-              <Button variant="primary" className="hoverButton">
-                Contactar
-              </Button>
-            </NavLink>
-          </p>
-        </div>
-      </div>
-
-      {/*Honda civic 2018 */}
+      {/*Honda civic 2018 }
       <div className="blog-card">
         <div className="meta">
           <div
@@ -249,7 +248,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/* Civic 2019*/}
+      {/* Civic 2019}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -309,7 +308,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/* Gran Cherokee*/}
+      {/* Gran Cherokee}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -371,7 +370,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/*Highlander 2020 */}
+      {/*Highlander 2020 }
 
       <div className="blog-card alt">
         <div className="meta">
@@ -432,7 +431,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/*Highlander 2016 */}
+      {/*Highlander 2016 }
       <div className="blog-card">
         <div className="meta">
           <div
@@ -495,7 +494,7 @@ const Coches = () => {
         </div>
       </div>
 
-      {/*k5 2017 */}
+      {/*k5 2017 }
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -556,7 +555,7 @@ const Coches = () => {
         </div>
       </div>
 
-      {/*Picanto 2016 */}
+      {/*Picanto 2016 }
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -619,7 +618,7 @@ const Coches = () => {
         </div>
       </div>
 
-      {/*Rio 2011*/}
+      {/*Rio 2011}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -682,7 +681,7 @@ const Coches = () => {
         </div>
       </div>
 
-      {/*Picanto 2023 */}
+      {/*Picanto 2023 }
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -745,7 +744,7 @@ const Coches = () => {
         </div>
       </div>
 
-      {/*SnataFe 2017*/}
+      {/*SnataFe 2017}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -808,7 +807,7 @@ const Coches = () => {
         </div>
       </div>
 
-      {/*Sentra 2017*/}
+      {/*Sentra 2017}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -871,7 +870,7 @@ const Coches = () => {
         </div>
       </div>
 
-      {/*Yaris*/}
+      {/*Yaris}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -932,7 +931,7 @@ const Coches = () => {
             </NavLink>
           </p>
         </div>
-      </div>
+                  </div>*/}
     </>
   );
 };
