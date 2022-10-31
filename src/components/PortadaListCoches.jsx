@@ -1,11 +1,11 @@
 import React from "react";
-import land1 from "../imgs/land1.png";
-import k5 from "../imgs/k52016.jpg";
-import mercedesPortada from "../imgs/mercedesPortada.png";
+
+import k5 from "../assets/imgs/k52016.jpg";
+import mercedesPortada from "../assets/imgs/mercedesPortada.png";
 import "../Styles/PortadaListaCoches.css";
 import Button from "react-bootstrap/Button";
 import { NavLink } from "react-router-dom";
-import KiaPicantoPortada from "../imgs/kiaPicantoPortada.png";
+import KiaPicantoPortada from "../assets/imgs/kiaPicantoPortada.png";
 
 const PortadaListaCoches = () => {
   return (

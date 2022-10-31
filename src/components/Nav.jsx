@@ -12,9 +12,9 @@ import "../Styles/Menu.css";
 //Components
 import Buscador from "../components/Buscador";
 //Logos
-import logoCertified from "../imgs/logoCertified.png";
+import logoCertified from "../assets/imgs/logoCertified.png";
 
-import logoTransparente from "../imgs/logoTransparente.png";
+import logoTransparente from "../assets/imgs/logoTransparente.png";
 
 const Naves = () => {
   const [expanded, setExpanded] = useState(false);
@@ -25,6 +25,7 @@ const Naves = () => {
           key={expand}
           expand={expand}
           expanded={expanded}
+          fixed="top"
           className="mb-3 menu container-fluid"
         >
           <Container fluid>

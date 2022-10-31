@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import portada1 from "../imgs/portada1.png";
+import portada1 from "../assets/imgs/portada1.png";
 import "../Styles/ContenidoPortada1.css";
-import logoTransparente from "../imgs/logoTransparente.png";
+import logoTransparente from "../assets/imgs/logoTransparente.png";
 const ContenidoPortada1 = () => {
   return (
     <div className="contenedorPortada1">

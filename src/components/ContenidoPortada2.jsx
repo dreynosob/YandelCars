@@ -1,9 +1,9 @@
 import Button from "react-bootstrap/Button";
 import React from "react";
 
-import portada1 from "../imgs/portada1.png";
-import picanto from "../imgs/kiaPicantoPortada.png";
-import portadaDealers from "../imgs/portadaDealers.jpg";
+import portada1 from "../assets/imgs/portada1.png";
+import picanto from "../assets/imgs/kiaPicantoPortada.png";
+import portadaDealers from "../assets/imgs/portadaDealers.jpg";
 import "../Styles/ContenidoPortada2.css";
 import { NavLink } from "react-router-dom";
 const ContenidoPortada2 = () => {

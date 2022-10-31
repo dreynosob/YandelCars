@@ -56,7 +56,7 @@ function App() {
               <>
                 <Top />
                 <Naves />
-                <Vehiculos />
+                <Coches />
 
                 <Footer2 />
               </>

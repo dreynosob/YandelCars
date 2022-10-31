@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import logo from "../imgs/logo.jpg";
+import logo from "../assets/imgs/logo.jpg";
 
 //CSS
 import "../Styles/Menu.css";

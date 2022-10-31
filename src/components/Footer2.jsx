@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import { FaMapMarkerAlt, FaMailBulk, FaPhoneAlt } from "react-icons/fa";
 import "../Styles/Footer2.css";
-import logoTransparente from "../imgs/logoTransparente.png";
+import logoTransparente from "../assets/imgs/logoTransparente.png";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {

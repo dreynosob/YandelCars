@@ -15,13 +15,18 @@
 }
 .margen {
   margin-bottom: 1em;
+  margin-top: 3em;
 }
 
 .fondoContact {
-  background: url("../imgs/portadaDealers.jpg");
+  background: url("../assets/imgs/portadaDealers.jpg");
   background-repeat: no-repeat;
   background-size: auto;
-  margin-top: -1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   padding-bottom: 1em;
 }
 @media only screen and (max-width: 900px) {
@@ -32,6 +37,14 @@
     padding-bottom: 1em;
     background-size: cover;
     margin-bottom: -1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .margen {
+    margin-top: 7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
 @media only screen and (min-width: 901px) {

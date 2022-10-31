@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaMailBulk, FaPhoneAlt } from "react-icons/fa";
 import { NavLink, Link } from "react-router-dom";
 import "../Styles/Footer.css";
 
-import logoTransparente from "../imgs/logoTransparente.png";
+import logoTransparente from "../assets/imgs/logoTransparente.png";
 
 const Footer = () => {
   return (

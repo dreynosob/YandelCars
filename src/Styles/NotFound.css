@@ -4,3 +4,10 @@
 h3 {
   font-weight: bold;
 }
+.notFoundContainer {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
