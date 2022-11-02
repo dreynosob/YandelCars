@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/HyundaiAccent.css";
+import { NavLink } from "react-router-dom";
+import { BsArrowLeft } from "react-icons/bs";
 //Gallery Civic lx 2018;
 import frontView from "../assets/imgs/Picanto 2016/picantoFrontView2016.JPG";
 import backView from "../assets/imgs/Picanto 2016/backView.JPG";
@@ -30,6 +32,13 @@ const KiaPicanto2016 = () => {
   const [selectedImg, setSelectedImg] = useState(images[0]);
   return (
     <div>
+      <div className="contenedorGallery">
+        <NavLink to="/coches">
+          <BsArrowLeft color="#fff" className="tamañoFlecha" />
+        </NavLink>
+
+        <h1 className="amarokTitle">Kia Picanto 2016</h1>
+      </div>
       <SelectedImages selectedImg={selectedImg.url} />
       <Images
         images={images}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BsArrowLeft } from "react-icons/bs";
 import "../Styles/HyundaiAccent.css";
 //Amrok Gallery
 import frontView from "../assets/imgs/Amarok 2018/frontView.JPG";
@@ -8,6 +9,7 @@ import backView from "../assets/imgs/Amarok 2018/backView.JPG";
 import tablero from "../assets/imgs/Amarok 2018/tablero.jpg";
 import interiorDelantero from "../assets/imgs/Amarok 2018/interiorDelantero.jpg";
 import interiorDelantero2 from "../assets/imgs/Amarok 2018/interiorDelantero2.jpg";
+import { NavLink } from "react-router-dom";
 
 const Amarok = () => {
   const images = [
@@ -36,6 +38,14 @@ const Amarok = () => {
   const [selectedImg, setSelectedImg] = useState(images[0]);
   return (
     <div>
+      <div className="contenedorGallery">
+        <NavLink to="/coches">
+          <BsArrowLeft color="#fff" className="tamañoFlecha" />
+        </NavLink>
+
+        <h1 className="amarokTitle">VOLKSWAGEN Amarok Extremen 2018</h1>
+      </div>
+
       <SelectedImages selectedImg={selectedImg.url} />
       <Images
         images={images}

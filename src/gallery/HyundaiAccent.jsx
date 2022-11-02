@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/HyundaiAccent.css";
-
+import { NavLink } from "react-router-dom";
+import { BsArrowLeft } from "react-icons/bs";
 //Fotos GALLERY
 import frontView from "../assets/imgs/Accent 2017/frontView.JPG";
 import backView from "../assets/imgs/Accent 2017/backView.JPG";
@@ -32,6 +33,13 @@ const HyundaiAccent = () => {
   const [selectedImg, setSelectedImg] = useState(images[0]);
   return (
     <div>
+      <div className="contenedorGallery">
+        <NavLink to="/coches">
+          <BsArrowLeft color="#fff" className="tamañoFlecha" />
+        </NavLink>
+
+        <h1 className="amarokTitle">Hyundai Accent 2017</h1>
+      </div>
       <SelectedImages selectedImg={selectedImg.url} />
       <Images
         images={images}

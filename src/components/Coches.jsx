@@ -54,14 +54,6 @@ import SantaFe from "../gallery/SantaFe";
 import Sentra2017 from "../gallery/Sentra2017";
 import Yaris from "../gallery/Yaris";
 const Coches = () => {
-  const values = [true];
-  const [fullscreen, setFullscreen] = useState(true);
-  const [show, setShow] = useState(false);
-
-  function handleShow(breakpoint) {
-    setFullscreen(breakpoint);
-    setShow(true);
-  }
   return (
     <>
       {/*Amarok 2018*/}
@@ -77,29 +69,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
+                  <NavLink to="/amarok">
+                    <Button variant="primary" className="hoverButton">
                       Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Volkswagen Amarok 2018 </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <Amarok />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -124,7 +98,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/*Hyundai Accent 2017}
+      {/*Hyundai Accent 2017*/}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -137,29 +111,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
+                  <NavLink to="/hyundaiAccent">
+                    <Button variant="primary" className="hoverButton">
                       Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Hyundai Accent 2017</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <HyundaiAccent />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -186,7 +142,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/*Honda civic 2018 }
+      {/*Honda civic 2018*/}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -199,29 +155,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
+                  <NavLink to="/hondaCivic18">
+                    <Button variant="primary" className="hoverButton">
                       Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Honda Civic Lx 2018 </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <CivicLx />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -248,7 +186,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/* Civic 2019}
+      {/* Civic 2019*/}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -261,29 +199,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
+                  <NavLink to="/hondaCivic19">
+                    <Button variant="primary" className="hoverButton">
                       Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Honda Civic Lx 2019 </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <CivicLx2019 />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -308,7 +228,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/* Gran Cherokee}
+      {/* Gran Cherokee*/}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -321,29 +241,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/cherokee">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Grand Cherokee </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <Cherokee />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -370,8 +272,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/*Highlander 2020 }
-
+      {/*Highlander 2020*/}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -384,29 +285,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/highlander">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Toyota Highlander 2020 </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <Highlander2020 />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -431,7 +314,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-      {/*Highlander 2016 }
+      {/*Highlander 2016 */}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -444,29 +327,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/highlander2016">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Toyota Highlander 2016 </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <Highlander2016 />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -493,8 +358,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-
-      {/*k5 2017 }
+      {/*k5 2017 */}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -507,29 +371,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/k5">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>K5 2017 </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <K52017 />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -554,8 +400,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-
-      {/*Picanto 2016 }
+      {/*Picanto 2016*/}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -568,29 +413,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/picanto2016">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Kia Picanto 2016</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <KiaPicanto2016 />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -617,8 +444,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-
-      {/*Rio 2011}
+      {/*Rio 2011*/}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -631,29 +457,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/rio2011">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Kia Rio 2011</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <KiaRio2011 />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -680,8 +488,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-
-      {/*Picanto 2023 }
+      {/*Picanto 2023*/}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -694,29 +501,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/picanto2023">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Kia Picanto 2023</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <KiaPicanto2023 />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -743,8 +532,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-
-      {/*SnataFe 2017}
+      {/*SnataFe 2017*/}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -757,29 +545,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/santafe2017">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Hyundai Santafe</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <SantaFe />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -806,8 +576,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-
-      {/*Sentra 2017}
+      {/*Sentra 2017*/}
       <div className="blog-card">
         <div className="meta">
           <div
@@ -820,29 +589,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/sentra2017">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Nissan Sentra 2017</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <Sentra2017 />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -869,8 +620,7 @@ const Coches = () => {
           </p>
         </div>
       </div>
-
-      {/*Yaris}
+      {/*Yaris*/}
       <div className="blog-card alt">
         <div className="meta">
           <div
@@ -883,29 +633,11 @@ const Coches = () => {
             <li className="tags">
               <ul>
                 <li>
-                  {values.map((v, idx) => (
-                    <Button
-                      key={idx}
-                      className="me-2 mb-2"
-                      onClick={() => handleShow(v)}
-                    >
-                      Detalles
-                      {typeof v === "string" && `below ${v.split("-")[0]}`}
+                  <NavLink to="/yaris">
+                    <Button variant="primary" className="hoverButton">
+                      Contactar
                     </Button>
-                  ))}
-                  <Modal
-                    show={show}
-                    fullscreen={fullscreen}
-                    onHide={() => setShow(false)}
-                    animation={true}
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title>Toyota Yaris 2018 </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <Yaris />
-                    </Modal.Body>
-                  </Modal>
+                  </NavLink>
                 </li>
               </ul>
             </li>
@@ -931,7 +663,7 @@ const Coches = () => {
             </NavLink>
           </p>
         </div>
-                  </div>*/}
+      </div>
     </>
   );
 };

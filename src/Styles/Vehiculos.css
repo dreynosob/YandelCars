@@ -124,8 +124,8 @@
   h2 {
     font-family: "Alfa Slab One", cursive;
     font-size: 20px;
-    font-weight: bold;
-    color: #fff;
+    font-weight: 400;
+    color: #000;
   }
   .encabezadoVehiculos h2 {
     float: right;

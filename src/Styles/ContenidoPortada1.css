@@ -85,3 +85,20 @@ h3 {
     font-weight: bold;
   }
 }
+@media only screen and (max-width: 700px) {
+  .contenidoPortada1Titulo {
+    font-family: "Lobster", cursive;
+    font-size: 38px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.925);
+    height: auto;
+    margin-top: 2em;
+  }
+  .contenidoPortada1Titulo2 {
+    margin-top: 0;
+    color: #ffde00;
+    font-family: "Alfa Slab One", cursive;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

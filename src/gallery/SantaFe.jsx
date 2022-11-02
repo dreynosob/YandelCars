@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/HyundaiAccent.css";
+import { NavLink } from "react-router-dom";
+import { BsArrowLeft } from "react-icons/bs";
 //Gallery Civic lx 2018;
 import frontView from "../assets/imgs/SantaFe 2017/santaFeFrontView.JPG";
 import sideView from "../assets/imgs/SantaFe 2017/sideView.JPG";
@@ -35,6 +37,13 @@ const SantaFe = () => {
   const [selectedImg, setSelectedImg] = useState(images[0]);
   return (
     <div>
+      <div className="contenedorGallery">
+        <NavLink to="/coches">
+          <BsArrowLeft color="#fff" className="tamañoFlecha" />
+        </NavLink>
+
+        <h1 className="amarokTitle">Santafe </h1>
+      </div>
       <SelectedImages selectedImg={selectedImg.url} />
       <Images
         images={images}
