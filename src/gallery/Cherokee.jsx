@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../Styles/HyundaiAccent.css";
 import { NavLink } from "react-router-dom";
 import { BsArrowLeft } from "react-icons/bs";

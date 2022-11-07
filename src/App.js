@@ -1,13 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Buscador from "./components/Buscador";
+import React, { Suspense } from "react";
 import ContenidoPortada1 from "./components/ContenidoPortada1";
 import ContenidoPortada2 from "./components/ContenidoPortada2";
-import Footer from "./components/Footer";
 import Footer2 from "./components/Footer2";
-
-import Menu from "./components/Menu";
 import PortadaListaCoches from "./components/PortadaListCoches";
-
 import Top from "./components/Top";
 import "./App.css";
 import {
@@ -17,258 +13,268 @@ import {
   Routes,
   Link,
 } from "react-router-dom";
-import Coches from "./components/Coches";
+
+//import Coches from "./components/Coches";
 import Contacto from "./components/Contacto";
 import Naves from "./components/Nav";
 import NotFound from "./components/NotFound";
 import About from "./components/About";
 import Promo from "./components/Promo";
-import Vehiculos from "./components/Vehiculos";
-import HyundaiAccent from "./gallery/HyundaiAccent";
-import Amarok from "./gallery/Amarok";
-import CivicLx from "./gallery/CivicLx";
-import CivicLx2019 from "./gallery/CivicLx2019";
-import Cherokee from "./gallery/Cherokee";
-import Highlander2020 from "./gallery/Highlander2020";
-import Highlander2016 from "./gallery/Highlander2016";
-import K52017 from "./gallery/K52017";
-import KiaPicanto2016 from "./gallery/KiaPicanto2016";
-import KiaPicanto2023 from "./gallery/KiaPicanto2023";
-import KiaRio2011 from "./gallery/KiaRio2011";
-import SantaFe from "./gallery/SantaFe";
-import Sentra2017 from "./gallery/Sentra2017";
-import Yaris from "./gallery/Yaris";
+
+const HyundaiAccentLazy = React.lazy(() => import("./gallery/HyundaiAccent"));
+const AmarokLazy = React.lazy(() => import("./gallery/Amarok"));
+const CivicLxLazy = React.lazy(() => import("./gallery/CivicLx"));
+const CivicLx2019Lazy = React.lazy(() => import("./gallery/CivicLx2019"));
+const CherokeeLazy = React.lazy(() => import("./gallery/Cherokee"));
+const Highlander2020Lazy = React.lazy(() => import("./gallery/Highlander2020"));
+const Highlander2016Lazy = React.lazy(() => import("./gallery/Highlander2016"));
+const K52017Lazy = React.lazy(() => import("./gallery/K52017"));
+const KiaPicanto2016Lazy = React.lazy(() => import("./gallery/KiaPicanto2016"));
+const KiaPicanto2023Lazy = React.lazy(() => import("./gallery/KiaPicanto2023"));
+const KiaRio2011Lazy = React.lazy(() => import("./gallery/KiaRio2011"));
+const SantaFeLazy = React.lazy(() => import("./gallery/SantaFe"));
+const Sentra2017Lazy = React.lazy(() => import("./gallery/Sentra2017"));
+const CochesLazy = React.lazy(() => import("./components/Coches"));
+const YarisLazy = React.lazy(() => import("./gallery/Yaris"));
 function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
-          <Route
-            exact
-            path="/YandelCars"
-            element={
-              <>
-                <Top />
+        <Suspense
+          fallback={
+            <div>
+              <h1 className="text-center">Loading...Please wait</h1>
+            </div>
+          }
+        >
+          <Routes>
+            <Route
+              exact
+              path="/YandelCars"
+              element={
+                <>
+                  <Top />
 
-                <Naves />
-                <ContenidoPortada1 />
+                  <Naves />
+                  <ContenidoPortada1 />
 
-                <ContenidoPortada2 />
-                <Promo />
+                  <ContenidoPortada2 />
+                  <Promo />
 
-                <PortadaListaCoches />
+                  <PortadaListaCoches />
 
-                <Footer2 />
-              </>
-            }
-          />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/coches"
-            element={
-              <>
-                <Top />
-                <Naves />
-                <Coches />
+            <Route
+              exact
+              path="/coches"
+              element={
+                <>
+                  <Top />
+                  <Naves />
+                  <CochesLazy />
 
-                <Footer2 />
-              </>
-            }
-          />
-          <Route
-            exact
-            path="/terminos"
-            element={
-              <>
-                <Top />
-                <Naves />
-                <NotFound />
-                <Footer2 />
-              </>
-            }
-          />
+                  <Footer2 />
+                </>
+              }
+            />
+            <Route
+              exact
+              path="/terminos"
+              element={
+                <>
+                  <Top />
+                  <Naves />
+                  <NotFound />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/contacto"
-            element={
-              <>
-                <Top />
-                <Naves />
-                <Contacto />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/contacto"
+              element={
+                <>
+                  <Top />
+                  <Naves />
+                  <Contacto />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/nosotros"
-            element={
-              <>
-                <Top />
-                <Naves />
-                <About />
-                <Footer2 />
-              </>
-            }
-          />
-          {/*Gallery */}
-          <Route
-            exact
-            path="/amarok"
-            element={
-              <>
-                <Amarok />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/nosotros"
+              element={
+                <>
+                  <Top />
+                  <Naves />
+                  <About />
+                  <Footer2 />
+                </>
+              }
+            />
+            {/*Gallery */}
+            <Route
+              exact
+              path="/amarok"
+              element={
+                <>
+                  <AmarokLazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/hyundaiAccent"
-            element={
-              <>
-                <HyundaiAccent />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/hyundaiAccent"
+              element={
+                <>
+                  <HyundaiAccentLazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/hondaCivic18"
-            element={
-              <>
-                <CivicLx />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/hondaCivic18"
+              element={
+                <>
+                  <CivicLxLazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/hondaCivic19"
-            element={
-              <>
-                <CivicLx2019 />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/hondaCivic19"
+              element={
+                <>
+                  <CivicLx2019Lazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/cherokee"
-            element={
-              <>
-                <Cherokee />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/cherokee"
+              element={
+                <>
+                  <CherokeeLazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/highlander"
-            element={
-              <>
-                <Highlander2020 />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/highlander"
+              element={
+                <>
+                  <Highlander2020Lazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/highlander2016"
-            element={
-              <>
-                <Highlander2016 />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/highlander2016"
+              element={
+                <>
+                  <Highlander2016Lazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/k5"
-            element={
-              <>
-                <K52017 />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/k5"
+              element={
+                <>
+                  <K52017Lazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/picanto2016"
-            element={
-              <>
-                <KiaPicanto2016 />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/picanto2016"
+              element={
+                <>
+                  <KiaPicanto2016Lazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/rio2011"
-            element={
-              <>
-                <KiaRio2011 />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/rio2011"
+              element={
+                <>
+                  <KiaRio2011Lazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/picanto2023"
-            element={
-              <>
-                <KiaPicanto2023 />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/picanto2023"
+              element={
+                <>
+                  <KiaPicanto2023Lazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/santafe2017"
-            element={
-              <>
-                <SantaFe />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/santafe2017"
+              element={
+                <>
+                  <SantaFeLazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/sentra2017"
-            element={
-              <>
-                <Sentra2017 />
-                <Footer2 />
-              </>
-            }
-          />
+            <Route
+              exact
+              path="/sentra2017"
+              element={
+                <>
+                  <Sentra2017Lazy />
+                  <Footer2 />
+                </>
+              }
+            />
 
-          <Route
-            exact
-            path="/yaris"
-            element={
-              <>
-                <Yaris />
-                <Footer2 />
-              </>
-            }
-          />
-        </Routes>
+            <Route
+              exact
+              path="/yaris"
+              element={
+                <>
+                  <YarisLazy />
+                  <Footer2 />
+                </>
+              }
+            />
+          </Routes>
+        </Suspense>
       </Router>
     </div>
   );

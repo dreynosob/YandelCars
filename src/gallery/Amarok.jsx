@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { BsArrowLeft } from "react-icons/bs";
 import "../Styles/HyundaiAccent.css";
 //Amrok Gallery
